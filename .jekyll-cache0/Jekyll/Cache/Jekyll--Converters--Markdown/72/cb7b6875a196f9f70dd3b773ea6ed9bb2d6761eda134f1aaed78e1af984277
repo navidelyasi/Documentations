@@ -1,0 +1,52 @@
+I"�<h1 class="fs-6 fw-300" id="os-command-encoded">OS Command Encoded</h1>
+
+<p>Single-line Operating System (OS) command with string encode.</p>
+
+<p>Properties
+Command: operating system command</p>
+
+<p>Output
+Output-location: Location to store the output data</p>
+
+<p>Example
+There are 3 ways to run multiple shell commands in one line:</p>
+
+<p>1) Use ;</p>
+
+<p>No matter the first command cmd1 run successfully or not, always run the second command cmd2:</p>
+
+<p>$ cd ~/Documents; ls</p>
+
+<p>no matter cd to ~/Documents successfully, run ls</p>
+
+<p>2) Use &amp;&amp;</p>
+
+<p>Only when the first command cmd1 run successfully, run the second command cmd2:</p>
+
+<p>$ cd ~/Documents &amp;&amp; ls</p>
+
+<p>run ls only after cd to ~/Documents</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>3) Use</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Only when the first command cmd1 failed to run, run the second command cmd2:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$ cd ~/Documents</td>
+      <td> </td>
+      <td>ls</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>if failed cd to ~/Documents, <code class="language-plaintext highlighter-rouge">ls</code> will run</p>
+:ET

@@ -1,0 +1,15 @@
+I"Ã<h1 id="connector-for-ms-sql">Connector for MS SQL.</h1>
+
+<h2 id="properties">Properties</h2>
+<p>Query: SQL query. For example SELECT * FROM public.table
+Address: Database IP address
+Port: Database port number
+Username: Database username
+Password: Database password
+Database: Database name
+Format:  [proceed] converted into Array
+            [raw] data in raw format</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Response from the database</p>
+:ET

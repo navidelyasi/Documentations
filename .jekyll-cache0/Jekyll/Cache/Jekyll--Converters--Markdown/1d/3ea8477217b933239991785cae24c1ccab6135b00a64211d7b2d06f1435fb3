@@ -1,0 +1,46 @@
+I"z<h1 class="no_toc" id="servers">Servers</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>This section is a “List view” of the servers created in the solution. When many servers are used, it can be difficult to go from one server to another in the “Solution Section”.</p>
+
+<p>One of the unique features of API AutoFlow is that there are no limits in the number of servers that can be created. The only limitation is the number of ports available.</p>
+
+<h2 id="server-start--stop">Server Start &amp; Stop</h2>
+
+<p>[A] Servers managed from this section. They can be turned on and off, renamed, and deleted.</p>
+
+<h2 id="tips">Tips</h2>
+
+<h2 id="status-indicators">Status indicators</h2>
+<p>Green color indicates that the services are up and working correctly</p>
+
+<p>Grey color indicates the service is turned off</p>
+
+<p>Red color indicates that there’s an error. For example, conflict port number</p>
+
+<h2 id="server-settings">Server Settings</h2>
+
+<h2 id="port-number">Port Number</h2>
+<p>A number representing a communication endpoint.
+There are 65,535 port numbers to choose from.</p>
+
+<h2 id="base-path">Base path</h2>
+<p>A prefix to apply to every path.
+A Base Path + Endpoint Path = Full Path
+For example</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/api/v1 + /resouce = /api/v1/resource
+</code></pre></div></div>
+
+<h2 id="tls">TLS</h2>
+<p>Formerly known as SSL, TLS is an encryption protocol used to enable HTTPS service</p>
+
+<h2 id="access-control">Access Control</h2>
+<p>Response header indicates whether the response can be shared with requesting code from the given method, origin, and header</p>
+
+<h2 id="tips-1">Tips</h2>
+
+<h2 id="reserved-port-numbers">Reserved port numbers</h2>
+<p>There are reserved port numbers that can not be used. Refer to commonly made mistakes for details.</p>
+:ET

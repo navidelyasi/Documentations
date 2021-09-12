@@ -1,0 +1,12 @@
+I"î<h1 class="no_toc" id="minimize-file-read--write">Minimize File Read &amp; Write</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>General best practice in programming applies to API AutoFlow.</p>
+
+<p>For example, I/O (input/output) devices such as hard drives are generally slower than the processor.</p>
+
+<p>That is why file read/write takes much longer.</p>
+
+<p>It is better to use a database that is optimized to handle frequent access to data</p>
+:ET

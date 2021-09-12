@@ -1,0 +1,12 @@
+I"j<h1 class="no_toc" id="udp-send">UDP Send</h1>
+
+<p>UDP Send actions send data to the address:port and the response is stored in the response-target.</p>
+
+<h2 id="properties">Properties</h2>
+<p>Data: Data to send
+Address: Destination Address
+Port: Destination Port Number</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Location to store the output data</p>
+:ET

@@ -1,0 +1,14 @@
+I"ù<h1 class="no_toc" id="get-authentication-token">Get Authentication Token</h1>
+
+<p>Gets Authentication Token from Oracle Database using Oracle Rest Data Services (ORDS).</p>
+
+<h2 id="properties">Properties</h2>
+<p>Host: Host address of ORDS endpoint (if scheme is not included, defaults to HTTP)
+Port: Port address of ORDS endpoint (could be left empty)
+Schema: Schema Alias
+Username: Username
+Password: Password</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Location to store the output data.</p>
+:ET

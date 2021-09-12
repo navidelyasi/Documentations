@@ -1,0 +1,8 @@
+I"y<h1 class="no_toc" id="use-a-small-sample-data-during-development">Use a small sample data during development</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>Real-world use cases commonly involve a large set of data and events.  It would be impractical to develop using the large set as it would require a large amount of computing resources.  For example, a data file could be a few megabytes in size.</p>
+
+<p>The best practice is to create a smaller data set (or reduced file size) to be used for the development.  A small set makes it easier to work with and speeds up development.</p>
+:ET

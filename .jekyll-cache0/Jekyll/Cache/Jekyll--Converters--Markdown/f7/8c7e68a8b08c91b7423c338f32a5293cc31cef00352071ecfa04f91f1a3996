@@ -1,0 +1,24 @@
+I"‘<h1 class="no_toc" id="part-5-share-apis">Part 5: Share APIs</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>You can share the application both with the end-user and co-developers as you build the solution.</p>
+
+<p>Sharing the solution with the end-user
+Sharing the solution with a team member
+Sharing the solution with the end-user
+Well-written and structured API documentation that explains how to effectively use and integrate an API in an easy-to-comprehend manner will make a developer happy and eager to recommend the API to peers.</p>
+
+<p>Numerous content elements make good documentation, such as:</p>
+
+<p>A quick start guide
+Authentication information
+Explanations for every API call (request)
+Examples of every request and return with a response description, error messages, etc.
+Sharing the solution with a team member
+In most cases, the solution will be co-developed with other people in your team.</p>
+
+<p>The configuration can be downloaded and shared with the team member. They simply need to upload the configuration to their API AutoFlow install to start working on the solution.</p>
+
+<p>download config</p>
+:ET

@@ -1,0 +1,30 @@
+I"]<h1 class="no_toc" id="create-update-sql-from-object">Create Update SQL from Object</h1>
+
+<p>Sequelize object action to convert Object into an Update SQL.</p>
+
+<h2 id="properties">Properties</h2>
+<p>Object: The object with both the column (object key) and the values to be updated
+Table: Name of the table to insert the data
+id-name: WHERE clause condition (column)
+id-value: WHERE clause condition  (value)</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Response from the database</p>
+
+<h3 id="example">Example</h3>
+<p>Given below object</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ “column1”: “value1”,  “column2”: “value2”,  “column3”: “value3”}
+</code></pre></div></div>
+
+<p>table: table_name</p>
+
+<p>id_name : id_name</p>
+
+<p>id_value : id_value</p>
+
+<p>The SQL query will be generated</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>UPDATE table_name
+SET column1 = value1, column2 = value2, column3 = value,
+WHERE id_name = id_value;
+</code></pre></div></div>
+:ET

@@ -1,0 +1,11 @@
+I"H<h1 class="no_toc" id="read">Read</h1>
+
+<p>The file, which must exist, is opened for reading.</p>
+
+<h2 id="properties">Properties</h2>
+<p>File: The file location to read the data from
+           E.g. /Users/{user_name}/Documents/sample.txt</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: The location to write the data</p>
+:ET

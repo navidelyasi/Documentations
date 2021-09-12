@@ -1,0 +1,52 @@
+I"�<h1 class="no_toc" id="flow">Flow</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#no-code-application-backend" id="markdown-toc-no-code-application-backend">No-code Application Backend</a>    <ul>
+      <li><a href="#benefits" id="markdown-toc-benefits">Benefits</a></li>
+    </ul>
+  </li>
+  <li><a href="#action-chaining" id="markdown-toc-action-chaining">Action Chaining</a>    <ul>
+      <li><a href="#cut-paste-delete-actions" id="markdown-toc-cut-paste-delete-actions">Cut&amp; Paste, Delete Actions</a></li>
+    </ul>
+  </li>
+  <li><a href="#tips" id="markdown-toc-tips">Tips</a>    <ul>
+      <li><a href="#copy-using-mouse" id="markdown-toc-copy-using-mouse">Copy using mouse</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<hr />
+<h2 id="no-code-application-backend">No-code Application Backend</h2>
+<p>API AutoFlow provides a true no-code experience for creating an application backend.</p>
+
+<p>The user experience is similar to drawing a software flowchart. The difference is that after the drawing, the solution is ready for use.</p>
+
+<p>The API AutoFlow WYSIWYG also follows many of BPMN (Business Process Model and Notation) standards, making it easy for even non-developers.</p>
+
+<h3 id="benefits">Benefits</h3>
+
+<ol>
+  <li>Provides visibility into the automated behaviors</li>
+  <li>Helps identify compliance and software health issues</li>
+  <li>Easily view how each server, node, and action relate to each other</li>
+</ol>
+
+<h2 id="action-chaining">Action Chaining</h2>
+<p>Creating a flow is about lazy “chaining actions”.  The actions alter the data to reach the desired result.</p>
+
+<p>[A] The flow receives a “Request” data
+[B] The <strong>chain of actions</strong> makes a change to the data based on the settings
+[C] The data is sent back as a “Response”</p>
+
+<h3 id="cut-paste-delete-actions">Cut&amp; Paste, Delete Actions</h3>
+<p>Actions can be cut, pasted, deleted using the edit icon on the top of the screen</p>
+
+<h2 id="tips">Tips</h2>
+
+<h3 id="copy-using-mouse">Copy using mouse</h3>
+
+<p>Action can also be copied using <strong>Alt</strong> + mouse drag on MAC or <strong>Ctrl/Alt</strong> + mouse drag on Linux</p>
+:ET

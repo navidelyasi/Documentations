@@ -1,0 +1,77 @@
+I"+<h1 class="no_toc" id="data">Data</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>API AutoFlow supports many types of data but the most commonly used is HTTP.  Understanding data structure is important because the flow is about applying actions to the received data and constructing the desired response.</p>
+
+<p>Below is what an HTTP Request and Response data look like.  API AutoFlow receives the HTTP Request data -&gt; Manipulate the data using actions -&gt; Sends the HTTP Response data</p>
+
+<h2 id="data-passing-through-the-flow">Data Passing Through the Flow</h2>
+<p>We discussed earlier how flows are simply a chain of actions. The data gets passed from one action to another applying changes based on the action’s properties.</p>
+
+<p>The data that goes through the flow is called “Flow transaction data’. More accurately, it is the data that each action receives from the previous action. The action applies changes to the data and passes it along to the next action.  Hence the action chaining takes place.</p>
+
+<h3 id="lets-look-at-the-above-example">Let’s look at the above example.</h3>
+
+<ol>
+  <li>HTTP server receives request (input) data.</li>
+  <li>The data is passed along to the endpoint with the matching path /helloworld</li>
+  <li>The endpoint passes the data to the next action in the flow</li>
+  <li>The data/set action assigns a string value of “Hello World” to a target called “Result“.
+Target is similar to a variable in a programming language</li>
+  <li>The next data/set action assigns the “Result” to the “Response Body (output)”</li>
+</ol>
+
+<p>Calling this endpoint returns the value of “Hello World”</p>
+
+<h2 id="using-the-data">Using the Data</h2>
+<p>One of the unique features that make API AutoFlow so easy to use is the availability of HTTP data.  The data can be applied directly to the actions.</p>
+
+<p>Apply changes to the flow data by dragging-and-dropping the field in the action’s settings.</p>
+
+<p>In the above example,</p>
+
+<ol>
+  <li>by applying the Response Body to the action’s Output at-location</li>
+  <li>you are configuring the Action:data/set to store the data in Response Body</li>
+</ol>
+
+<p>In other words, when the flow (endpoint) is executed, the <strong>Response Body</strong> will have the value <strong>‘Hello World’Note: Reminder that the data that’s been displayed is what the action received from the previous component. Once the current action applies the changes, the flow data with the new value is passed to the next component</strong></p>
+
+<h2 id="data-types">Data Types</h2>
+<p>There are 8 data types and 3 data references. To change the data type by selecting from the drop-down.</p>
+
+<ul>
+  <li><strong>Array</strong>: Array type represents a collection of elements</li>
+  <li><strong>Bits</strong>: Binary</li>
+  <li><strong>Boolean</strong>: Boolean type is true or false</li>
+  <li><strong>Empty</strong>: Empty type is the absence of value</li>
+  <li><strong>Binary in Hex</strong>: Hex representation of Binary</li>
+  <li><strong>Number</strong>: Number type represents numeric data</li>
+  <li><strong>String</strong>: String type represents textual data</li>
+  <li><strong>Object</strong>: Object type represents a collection of properties referenced by an identifier</li>
+  <li><strong>Reference</strong>: Pointer to data. Get value from a variable or mock data (refer to data reference)</li>
+  <li><strong>Table</strong>: Get value from table</li>
+  <li><strong>File</strong>: Get value from File</li>
+</ul>
+
+<h2 id="tips">Tips</h2>
+
+<p>Copy, Paste, Delete Data just like with actions.  The feature is useful when applying the same data structure to many different actions.</p>
+
+<h2 id="reference-type">Reference Type</h2>
+<p>To reference data in the flow transaction data.  It can be understood as a “pointer” to the variable.</p>
+
+<p>[R] [S] is the reference or point to the Flow Transaction Data.
+In the example below, [R] is referencing or pointing to the request-body. Hence the data received on the request body will be applied to the action.</p>
+
+<h2 id="tips-1">Tips</h2>
+
+<p>Dynamic reference pointer</p>
+
+<p>The reference can be dynamic.</p>
+
+<p>Example A: This example uses static value firstname to directly reference the data</p>
+
+<p>Example B: This example gets the value from another data-set “sample-field”</p>
+:ET

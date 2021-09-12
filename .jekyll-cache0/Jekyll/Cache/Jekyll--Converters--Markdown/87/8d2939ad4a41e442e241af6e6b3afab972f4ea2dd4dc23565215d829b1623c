@@ -1,0 +1,16 @@
+I"�<h1 class="no_toc" id="write">Write</h1>
+
+<p>The file is opened for writing. It is created if it does not exist. If the file does exist, the previous contents are overwritten.</p>
+
+<h2 id="properties">Properties</h2>
+<p>File: The file location to write the data
+           E.g. /Users/{user_name}/Documents/sample.txt</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Location to store the output data</p>
+
+<h2 id="commonly-made-mistake">Commonly made mistake</h2>
+<p>Files only take string values.  Make sure that the data you are writing is a “TEXT” not an object or array.</p>
+
+<p>Use JSON/encode action to stringify the data</p>
+:ET

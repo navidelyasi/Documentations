@@ -1,0 +1,13 @@
+I"s<h1 class="no_toc" id="tcp-receive">TCP Receive</h1>
+
+<p>TCP Receive action receives data from a bound Socket to the response-target.</p>
+
+<h2 id="properties">Properties</h2>
+<p>Data: Data to send
+Address: Destination Address
+Port: Destination Port Number
+Timeout: If no response</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Location to store the output data</p>
+:ET

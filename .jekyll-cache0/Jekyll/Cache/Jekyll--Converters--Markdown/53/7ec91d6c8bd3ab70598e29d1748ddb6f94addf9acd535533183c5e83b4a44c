@@ -1,0 +1,61 @@
+I"L<h1 class="no_toc" id="part-3-test-your-api">Part 3: Test Your API</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>There are several ways to test the API.</p>
+
+<ol>
+  <li>Internal Testing: Built-in Data Simulation and Mock Data</li>
+  <li>External Testing: API Testing tools such as Postman.</li>
+</ol>
+
+<h2 id="internal-testing-data-simulation-and-mock-data">Internal Testing: Data Simulation and Mock Data</h2>
+<h3 id="what-is-simulated-mock-data">What is Simulated (Mock) Data?</h3>
+<p>Mock data is the simulated or made-up data.</p>
+
+<p>What type of data can you mock in the product?</p>
+
+<ol>
+  <li>
+    <p>HTTP Requests
+The process of creating a flow is to design a chain of actions that provides desired response to the request.  By simulating the request data within the product, developers can visualize the expected response as the flow is built and actions are applied.</p>
+  </li>
+  <li>
+    <p>Actions receiving data
+Database and communication actions receive data from another server.  During development, it may not be ideal to execute those actions too many times for reasons such as rate limiting and slow responses delaying the development process.</p>
+  </li>
+</ol>
+
+<h2 id="simulating-http-request">Simulating HTTP Request</h2>
+
+<p>As discussed earlier on understanding flow creating a flow is all about how you manipulate the HTTP request data to send back the desired HTTP response.</p>
+
+<p>Flow Test Simulation feature of API AutoFlow enables you to mock the HTTP Request data.</p>
+
+<p>The request data simulated in  are made available as “mock data” in .   The expected response gets displaced in .</p>
+
+<h2 id="tips">Tips</h2>
+
+<p>Multiple sets of request data can be simulated by pressing the + button.  Ideal for testing the solution on varying requests.</p>
+
+<p>Data simulation can be enabled by turning the Dev Mode ON or OFF.</p>
+
+<h2 id="response-from-the-communication-action">Response from the Communication Action</h2>
+<p>The actions that expect a response from another server can mock expected results.</p>
+
+<p>The mock result feature can be turned on and off by clicking the check box .</p>
+
+<p>The simulated mock data in  are made available in the next action as “mock data” in .</p>
+
+<h2 id="tips-1">Tips</h2>
+
+<ol>
+  <li>Start with the mock-result ON to avoid making unwanted calls to the server
+Note: under dev mode, flow is executed every time you click on an action</li>
+  <li>Use real data as mock data
+After you have configured the action, switch the mock data OFF .  The received data will appear in the next action .  Cut and paste the data back into the action’s mock data.</li>
+</ol>
+
+<h2 id="external-testing-api-testing-tools-such-as-postman">External Testing: API Testing tools such as Postman</h2>
+<p>The APIs you created can also be tested using API testing tools such as Postman.</p>
+:ET

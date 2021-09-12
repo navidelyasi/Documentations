@@ -1,0 +1,8 @@
+I"§
+<p>Gets the configuration for a timer.</p>
+
+<p>Properties
+timer-id: The name given to the timer
+Output
+output-location: Location to store the timer configuration</p>
+:ET

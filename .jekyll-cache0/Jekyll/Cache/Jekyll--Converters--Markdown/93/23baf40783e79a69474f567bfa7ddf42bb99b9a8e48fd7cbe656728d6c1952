@@ -1,0 +1,16 @@
+I"§<h1 class="no_toc" id="http-request">HTTP Request</h1>
+
+<p>Makes HTTP request to APIs from the flow.</p>
+
+<h2 id="properties">Properties</h2>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">URL</span><span class="pi">:</span> <span class="s">Address for the Request to be sent</span>
+<span class="na">Method</span><span class="pi">:</span> <span class="s">Refer to Endpoint for more information</span>
+<span class="na">Body</span><span class="pi">:</span> <span class="s">Value to include in the body</span>
+<span class="na">Header</span><span class="pi">:</span> <span class="s">Value to include in the header</span>
+<span class="na">Query</span><span class="pi">:</span> <span class="s">Query to the server</span>
+<span class="na">Timeout</span><span class="pi">:</span>  <span class="s">Duration to make the attempt</span>
+</code></pre></div></div>
+<h2 id="output">Output</h2>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Output-location</span><span class="pi">:</span> <span class="s">Location to store the output data</span>
+</code></pre></div></div>
+:ET

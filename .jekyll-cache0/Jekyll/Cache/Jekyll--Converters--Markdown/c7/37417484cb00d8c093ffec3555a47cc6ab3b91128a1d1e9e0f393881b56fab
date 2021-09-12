@@ -1,0 +1,45 @@
+I"ö<h1 class="no_toc" id="endpoints">Endpoints</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>An HTTP or API endpoint is basically a fancy word for a URL/URI of a server or service.</p>
+
+<h2 id="path">Path</h2>
+<p>URI path.   <code class="language-plaintext highlighter-rouge">/</code>  is the root path</p>
+
+<h2 id="serve-file">Serve File</h2>
+<p>Way to host a file such as index.html
+See below for more details</p>
+
+<h2 id="method">Method</h2>
+<p>Defines a set of request methods to indicate the desired action to be performed for a given resource.
+Most commonly used methods are POST, GET, PUT, PATCH, and DELETE.</p>
+
+<h2 id="serve-file-1">Serve File</h2>
+
+<p><strong>Serve Files</strong> is a means to host the files. You can point to the dist directory generated from frameworks such as Vue.js, Angular, ReactJS, etc</p>
+
+<h4 id="for-example">For example</h4>
+
+<ul>
+  <li>Given a folder:  my-folder/index.html</li>
+  <li>An endpoint with path:  /ui</li>
+</ul>
+
+<p>Serve files: my-folder</p>
+
+<p>Then you can open:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;protocol&gt;://&lt;address&gt;:&lt;port&gt;/ui/index.html
+</code></pre></div></div>
+
+<h2 id="body-canary">Body [Canary]</h2>
+
+<p><strong>__Server Endpoint Body is in Canary stage__</strong></p>
+
+<p>Body applies validation to incoming requests.</p>
+
+<p>It is a JSON Schema.</p>
+
+<p>The future release will have a tighter integration with the Schema.</p>
+:ET

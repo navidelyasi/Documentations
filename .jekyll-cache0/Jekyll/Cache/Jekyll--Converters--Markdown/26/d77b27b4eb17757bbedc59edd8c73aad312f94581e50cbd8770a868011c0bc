@@ -1,0 +1,25 @@
+I"�<h1 class="no_toc" id="create-insert-sql-from-object">Create Insert SQL from Object</h1>
+
+<p>Sequelize object action to convert Object into an Insert SQL.</p>
+
+<h2 id="properties">Properties</h2>
+<p>Object: The object with both the column (object key) and the values to be inserted
+Table: Name of the table to insert the data</p>
+
+<h2 id="output">Output</h2>
+<p>Output-location: Response from the database</p>
+
+<h3 id="example">Example</h3>
+<p>Given below object</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ “column1”: “value1”,  “column2”: “value2”,  “column3”: “value3”}
+</code></pre></div></div>
+
+<p>Table : table_name</p>
+
+<p>The SQL query will be generated</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>INSERT INTO table_name (column1, column2, column3)
+VALUES (value1, value2, value3);
+</code></pre></div></div>
+:ET

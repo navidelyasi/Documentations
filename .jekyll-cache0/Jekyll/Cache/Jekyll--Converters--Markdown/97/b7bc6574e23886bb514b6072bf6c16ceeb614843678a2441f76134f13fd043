@@ -1,0 +1,108 @@
+I"w<h1 class="no_toc" id="part-2-sample-application">Part 2: Sample Application</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>For the rest of this tutorial, we will be working to build a simple solution that exposes data from Postgres database with custom API. If you’re not familiar with Postgres, don’t worry! No real Postgres experience is needed!</p>
+
+<p>At this point, your development team is quite small and you’re simply building an app to prove out your MVP (minimum viable product). You want to show how it works and what it’s capable of doing without needing to think about how it will work for a large team, multiple developers, etc.</p>
+
+<p>The sample solution is available from GitHub open-source configuration templates.</p>
+
+<p>Download the Sample Solution</p>
+
+<h2 id="create-api-server-and-endpoint">Create API (Server and Endpoint)</h2>
+<p>Define how you want to expose the data. For example,</p>
+
+<p><code class="language-plaintext highlighter-rouge">http://localhost:1111/test</code></p>
+
+<p>Let’s create a Server with port number 1111 and an Endpoint with the URI /test</p>
+
+<h2 id="1-create-server">1. Create Server</h2>
+<p>Add a server by pressing the [Add] drop-down on the top of the screen.</p>
+
+<p>Create Server</p>
+
+<h2 id="tips">Tips</h2>
+
+<p>The server will be created with a random port number. You can change the port number by press selecting the Server icon which opens the Server settings.</p>
+
+<p><strong>Change Port Number</strong></p>
+
+<ul>
+  <li>Change the port number to 1111</li>
+</ul>
+
+<h2 id="2-create-endpoint">2. Create Endpoint</h2>
+<p>Add a server endpoint by pressing the [Add] drop-down on the top of the screen</p>
+
+<h2 id="tips-1">Tips</h2>
+
+<p>The endpoint by default has a root path /. You can change the root path by press selecting the Endpoint icon which opens the Endpoint settings.</p>
+
+<h3 id="change-path">Change Path</h3>
+
+<ul>
+  <li>Change the path to /test</li>
+  <li>Change the method to GET</li>
+</ul>
+
+<h2 id="integration-with-database">Integration with Database</h2>
+<p>Use database connector to get data from Postgres</p>
+
+<p>Add Postgres Database Action
+From the right panel, press the Action tab, and drag-n-drop the database/Postgres action to the flow</p>
+
+<p>Configure Postgres Data Action
+<strong>Enter the credentials for the database.</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>query: [S] SELECT * FROM public.demo
+address: [S] 129.146.123.245
+port: [N] 5432
+username: [S] psdju
+password: [S]
+database: [S]
+format: [processed]
+use-mock-result: [B] Uncheck
+</code></pre></div></div>
+
+<h4 id="output-the-data-into-http-response-body">Output the data into HTTP Response Body.</h4>
+
+<p>Drag and drop the response body from the flow transaction data to the output</p>
+
+<p><strong>Check Data</strong>: Make sure you are getting the data by going to</p>
+
+<p><code class="language-plaintext highlighter-rouge">http://localhost:1111/test</code></p>
+
+<h3 id="data-transformation">Data Transformation</h3>
+<p>Logic Execution: Transform data and apply automation. There are many data handling actions available.</p>
+
+<p>Join “First and Last” name
+For this exercise, we will join two strings using the string/join action.</p>
+
+<p>Add String/join action to the flow</p>
+
+<p>Configure String/join Action</p>
+
+<p>Be sure to set output to “Response/body”</p>
+
+<p><strong>Check data</strong>: Go to the URL http://localhost:1111/test to check the data.</p>
+
+<p>Reformat Timestamp
+For the second exercise, we will change the format of date and time as below.</p>
+
+<p><code class="language-plaintext highlighter-rouge">2021/04/16  -----&gt;   2021-04-16</code>
+Add String/replace action to the flow</p>
+
+<p>Configure String/replace action</p>
+
+<p>Be sure to set output to “Response/body”</p>
+
+<p>Check data: Go to the URL http://localhost:1111/test to check the data.</p>
+
+<h2 id="download-more-solution-templates">Download More Solution Templates</h2>
+<p>GitHub API AutoFlow Solutions Repository</p>
+
+<p>Examples of solutions can be found in the below repository</p>
+
+<p><a href="">GitHub Solution Repositories</a></p>
+:ET

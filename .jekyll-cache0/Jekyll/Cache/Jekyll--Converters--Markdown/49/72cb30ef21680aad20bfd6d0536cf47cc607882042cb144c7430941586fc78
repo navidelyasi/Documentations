@@ -1,0 +1,15 @@
+I"<h1 class="no_toc" id="delete-by-keys">Delete by Keys</h1>
+
+<p>Deletes a row from Oracle Database using Oracle Rest Data Services (ORDS).</p>
+
+<p>Properties
+Host: Host address of ORDS endpoint (if scheme is not included, defaults to HTTP)
+Port: Port address of ORDS endpoint (could be left empty)
+Schema: Schema Alias
+Object: Object Alias
+Token: OAuth Token obtained using get-auth-token action
+Keys: List of Keys that uniquely identifies a row listed in the key order</p>
+
+<p>Output
+Output-location: Location to store the output data.</p>
+:ET

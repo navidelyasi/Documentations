@@ -1,0 +1,7 @@
+I"�<h1 class="fs-6 fw-300" id="api-autoflow-product-info">API AutoFlow Product Info</h1>
+
+<p>Returns current product info. Returns “name” and “version”.</p>
+
+<p>Output
+Output-location: Location to store the output data</p>
+:ET

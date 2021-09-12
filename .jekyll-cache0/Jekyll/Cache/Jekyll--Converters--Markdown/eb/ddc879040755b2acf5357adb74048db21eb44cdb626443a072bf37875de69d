@@ -1,0 +1,15 @@
+I"÷<h1 class="no_toc" id="efficiency-minimize-compute-processing">Efficiency: Minimize compute processing</h1>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<hr />
+<p>There are actions that use more compute than others.  A general rule of thumb is to think of how much data processing the action has to perform.</p>
+
+<p>For example, a common data extraction use case of iterating over a list, selecting the value from each element, and inserting it into a new list.</p>
+
+<ul>
+  <li>Process 1: Iteration/for-each takes each element and saves it in the memory</li>
+  <li>Process 2: Array-insert breaks down the data, selects the value, and insert it into the array</li>
+</ul>
+
+<p>If there are thousands of elements in the list, you can imagine the compute needed to save each element in memory and break them for processing. Instead, using Boolean actions such as iteration/filter that checks if the element is true or false and throws away the non-matching element is more efficient.</p>
+:ET
