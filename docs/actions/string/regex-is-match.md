@@ -4,4 +4,21 @@ title: String Regex is Match
 parent: Strings
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+#String Regex is Match
+Checks if string matches the given regular expression.
+
+## Properties
+```yaml
+String: Location of the string to match against
+Regex: Regex expression to compare
+```
+
+Output
+```yaml
+Output-location: Location to store the output data
+```
+
+## Example
+A string `foo` matching again regex expresson `~r/foo/` would return **TRUE**
+
+A string `bar` matching again regex expresson `~r/foo/` would return **FALSE**

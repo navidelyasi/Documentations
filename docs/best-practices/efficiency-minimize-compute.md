@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Efficiency: Minimize compute processing
+title: Efficiency Minimize compute processing
 parent: Best Practices
 nav_order: 2
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CORS POLICY: NO ‘ACCESS-CONTROL-ALLOW-ORIGIN’
+title: CORS POLICY NO ‘ACCESS-CONTROL-ALLOW-ORIGIN’
 parent: Trouble Shooting
 ---
 
