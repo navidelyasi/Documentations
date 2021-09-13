@@ -4,9 +4,10 @@ title: Timer Delete
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
-
+# Timer Delete
 Deletes a timer
 
-Properties
+## Properties
+```yaml
 timer-id: The ID of the timer
+```

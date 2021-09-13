@@ -4,11 +4,15 @@ title: Timer Get
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
-
+# Timer Get
 Gets the configuration for a timer.
 
-Properties
+## Properties
+```yaml
 timer-id: The name given to the timer
-Output
+```
+
+## Output
+```yaml
 output-location: Location to store the timer configuration
+```

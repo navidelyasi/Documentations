@@ -4,18 +4,13 @@ title: AWS API Connector Service (JSON)
 parent: AWS
 grand_parent: Services
 ---
-
-# AWS API Connector Service (JSON)
-{: .fs-6 .fw-300 }
-
-
-Note, most AWS endpoints use REST.
-
+# AWS JSON based API Connector
+Note, most AWS endpoints use **JSON**.
 API AutoFlow built-in AWS connectors using JSON method.  Refer to the AWS documentation to see whether the API endpoint you wish to use supports JSON, Query, or Rest.  
-
 AWS API connectors are also available in the Connectors section.
 
-Properties
+## Properties
+```yaml
 Service: Select the AWS service
 Method: Select the method (GET, PUT, POST, etc)
 Headers: Add the header as per the AWS API documentation
@@ -24,6 +19,8 @@ Data: Add the data as per the AWS API documentation
 Region: Select the region for your server
 Access-key-id: Enter the access-key created from AWS IAM
 Secret-access-key: Enter the access-key created from AWS IAM
-
-Output
+```
+## Output
+```yaml
 Output-location: Location to store the output data
+```

@@ -4,9 +4,10 @@ title: Timer Stop
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
-
+# Timer Stop
 Stops a timer.
 
-Properties
+## Properties
+```yaml
 timer-id: The ID of the timer
+```

@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "just-the-docs"
   spec.version       = "0.3.3"
-  spec.authors       = ["Patrick Marsceill"]
-  spec.email         = ["patrick.marsceill@gmail.com"]
+  spec.authors       = ["API AutoFlow"]
+  spec.email         = ["webmaster@apiautoflow.com"]
 
-  spec.summary       = %q{A modern, highly customizable, and responsive Jekyll theme for documention with built-in search.}
-  spec.homepage      = "https://github.com/pmarsceill/just-the-docs"
+  spec.summary       = %q{Official documentation of API AutoFlow Interactor.}
+  spec.homepage      = "https://docs.apiautoflow.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|bin|_layouts|_includes|lib|Rakefile|_sass|LICENSE|README)}i) }

@@ -5,30 +5,29 @@ parent: System
 grand_parent: Actions
 ---
 # OS Command
-{: .fs-6 .fw-300 }
-
 Single-line Operating System (OS) command.
 
-Properties
+## Properties
+```yaml
 Command: operating system command
+```
 
-Output
+## Output
+```yaml
 Output-location: Location to store the output data
+```
 
-Example
+### Example
 There are 3 ways to run multiple shell commands in one line:
 
-1) Use ;
-
+1. Use `;`
 No matter the first command cmd1 run successfully or not, always run the second command cmd2:
-
 ```
 $ cd ~/Documents; ls
 ```
-
 no matter cd to ~/Documents successfully, run ls
 
-2) Use &&
+2. Use `&&`
 
 Only when the first command cmd1 run successfully, run the second command cmd2:
 ```
@@ -36,7 +35,7 @@ $ cd ~/Documents && ls
 ```
 run ls only after cd to ~/Documents
 
-3) Use ||
+3. Use `||`
 
 Only when the first command cmd1 failed to run, run the second command cmd2:
 ```
