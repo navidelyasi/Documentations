@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Now
+title: Current Time
 parent: Date Time
 grand_parent: Actions
 ---
-# Now
-Returns the current date and time in UTC.
+# Current Time
+Returns the current time in UTC.
 
 ## Properties
 ```yaml
@@ -19,5 +19,5 @@ Output-location: The location to store the timestamp
 
 ### Format
 ```js
-YYYY-MM-DD hh:mm:ss.decimal (eg 1997-07-16 19:20:30.40)
+hh:mm:ss.decimal (eg 19:20:30.40)
 ```

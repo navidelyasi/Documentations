@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Set Data
+title: Data Is Float
 parent: Data
 grand_parent: Actions
 ---
-# Set Data
-Action to apply value to the flow.
+# Data Is Float
+Checks if Data is a float. Outputs a boolean value.
 
 ## Properties
 ```yaml
-Value: The value to apply
+Value: Location of the value to check
 ```
 
 ## Output

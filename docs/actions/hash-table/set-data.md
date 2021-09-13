@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Get Data - Hash Table
+title: Set Data - Hash Table
 parent: Hash Table
 grand_parent: Actions
 ---
-# Get Data - Hash Table
-Reads a Table entry.
+# Set Data - Hash Table
+Writes a Table entry.
 
 ## Properties
 ```yaml
 Table-id: Select an existing table. Table may be created by clicing on Table navigation on the left.
-Key: Table key to read.
+Key: Table key to write.
+Value: Value to write.
 ```
 
 ## Output
@@ -18,5 +19,4 @@ Key: Table key to read.
 Output-location: Location to store the output data
 ```
 
-### Example
-If Table “test” has an entry with key “test-key” and value “hello” and key is set to “test-key”, Output is “hello”.
+Output is `ok` if successful.

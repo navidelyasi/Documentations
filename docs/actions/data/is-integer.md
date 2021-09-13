@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Set Data
+title: Data is Integer
 parent: Data
 grand_parent: Actions
 ---
-# Set Data
-Action to apply value to the flow.
+# Data is Integer
+Checks if Data is an integer. Outputs a boolean value.
 
 ## Properties
 ```yaml
-Value: The value to apply
+Value: Location of the value to check
 ```
 
 ## Output

@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Current System Time
+title: Convert Unix time to UTC
 parent: Date Time
 grand_parent: Actions
 ---
-# Current System Time
-Returns the current time of the Hardware System.
+# Convert Unix time to UTC
+Converts the given Unix time to DateTime (UTC).
 
 ## Properties
 ```yaml
+Unix-time: Location of the UNIX Time
 Time-unit: Select from second, millisecond, microsecond, nanosecond
 ```
 

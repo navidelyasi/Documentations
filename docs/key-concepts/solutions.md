@@ -5,7 +5,7 @@ parent: Key Concepts
 nav_order: 2
 ---
 
-# Navigation
+# Solutions
 {: .no_toc }
 
 ## Table of contents

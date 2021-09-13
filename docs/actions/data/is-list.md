@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Set Data
+title: Data is List
 parent: Data
 grand_parent: Actions
 ---
-# Set Data
-Action to apply value to the flow.
+# Data is List
+Checks if Data is a list (Array). Outputs a boolean value.
 
 ## Properties
 ```yaml
-Value: The value to apply
+Value: Location of the value to check
 ```
 
 ## Output

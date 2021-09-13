@@ -1,13 +1,8 @@
 ---
 layout: default
-title: Hash Tables
+title: Tables (Hash)
 parent: Key Concepts
 nav_order: 8
 ---
 
-# Navigation
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
+# Tables (Hash)

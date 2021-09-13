@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Connectors
+title: Logs
 parent: Key Concepts
-nav_order: 9
+nav_order: 99
 ---
 
-# Navigation
+# Logs
 {: .no_toc }
 
 ## Table of contents
