@@ -5,8 +5,7 @@ nav_order: 8
 ---
 
 # Release Notes
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
----
+The latest release note can be found on API AutoFlow website
+
+[API AutoFlow University](https://www.apiautoflow.com/release-note){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

@@ -6,15 +6,11 @@ nav_order: 3
 ---
 
 # Part 3: Share the application
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
 ---
 You can share the application both with the end-user and co-developers as you build the solution.
 
-* Sharing the solution with the end-user
-* Sharing the solution with a team member
+* Sharing the solution with customers and partners
+* Sharing the solution with co-developers
 
 ## Sharing the solution with the end-user
 Well-written and structured API documentation that explains how to effectively use and integrate an API in an easy-to-comprehend manner will make a developer happy and eager to recommend the API to peers.

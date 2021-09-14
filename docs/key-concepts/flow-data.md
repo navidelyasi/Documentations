@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Data
+title: Flow Data
 parent: Key Concepts
 nav_order: 6
 ---
 
-# Data
-{: .no_toc }
+# Flow Data
 
 ## Table of contents
 {: .no_toc .text-delta }

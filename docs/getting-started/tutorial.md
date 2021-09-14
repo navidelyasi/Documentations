@@ -6,14 +6,17 @@ nav_order: 4
 ---
 
 # Tutorial
-{: .no_toc }
+Whether you are new to API development or an expert looking to learn how to use API AutoFlow, there are tutorials for all your needs.
 
-## Table of contents
-{: .no_toc .text-delta }
----
-Start the tutorial
-If you’ve already run the command to run API AutoFlow, congratulations! If not, open a command prompt or bash window, and follow the instructions on the downloads page.
+<!-- # Recommendations
+Follow below lesson recommendations to quickly become an expert with the product.
 
-Once you have started API AutoFlow, follow the tutorial below to get familiarized with the features.
+## Beginners
 
-Start Tutorial
+* Beginner's Guide to API Development
+
+## Experts -->
+
+Learn how to use API AutoFlow from the experts.
+
+[API AutoFlow University](https://www.apiautoflow.com/video-courses){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
