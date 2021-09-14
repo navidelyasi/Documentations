@@ -21,8 +21,7 @@ Add a server by pressing the [Add] drop-down on the top of the screen.
 
 ![Create Server](/assets/images/create_server.png)
 
-
-![!](/assets/images/tip-icon.png) Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/> Tips
 
 The server will be created with a random port number. You can change the port number by press selecting the Server icon which opens the Server settings.
 
@@ -37,7 +36,7 @@ Add a server endpoint by pressing the [Add] drop-down on the top of the screen
 
 ![Create Endpoint](/assets/images/create-endpoint.png)
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/> Tips
 
 The endpoint by default has a root path /. You can change the root path by press selecting the Endpoint icon which opens the Endpoint settings.
 

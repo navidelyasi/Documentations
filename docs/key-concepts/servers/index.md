@@ -22,7 +22,7 @@ One of the unique features of API AutoFlow is that there are no limits in the nu
 
 [A] Servers managed from this section. They can be turned on and off, renamed, and deleted.
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 ## Status indicators
  Green color indicates that the services are up and working correctly
@@ -53,7 +53,7 @@ Formerly known as SSL, TLS is an encryption protocol used to enable HTTPS servic
 ## Access Control
 Response header indicates whether the response can be shared with requesting code from the given method, origin, and header
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 ## Reserved port numbers
 There are reserved port numbers that can not be used. Refer to commonly made mistakes for details.

@@ -38,7 +38,7 @@ Flow Test Simulation feature of API AutoFlow enables you to mock the HTTP Reques
 
 The request data simulated in  are made available as “mock data” in .   The expected response gets displaced in .
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 Multiple sets of request data can be simulated by pressing the + button.  Ideal for testing the solution on varying requests.
 
@@ -56,7 +56,7 @@ The simulated mock data in  are made available in the next action as “mock dat
 
 ![Data Simulation Action](/assets/images/data-simulation-action.png)
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 1. Start with the mock-result ON to avoid making unwanted calls to the server
 Note: under dev mode, flow is executed every time you click on an action

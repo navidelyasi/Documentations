@@ -57,7 +57,7 @@ There are 8 data types and 3 data references. To change the data type by selecti
 * **Table**: Get value from table
 * **File**: Get value from File
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 Copy, Paste, Delete Data just like with actions.  The feature is useful when applying the same data structure to many different actions.
 
@@ -67,7 +67,7 @@ To reference data in the flow transaction data.  It can be understood as a “po
 [R] [S] is the reference or point to the Flow Transaction Data.
 In the example below, [R] is referencing or pointing to the request-body. Hence the data received on the request body will be applied to the action.
 
-## Tips
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 Dynamic reference pointer
 
