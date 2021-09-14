@@ -4,4 +4,16 @@ title: Array Concatenate
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array Concatenate
+Concatenate (joins) two lists and returns a single list
+
+## Properties
+```yaml
+Array: Location of the first list
+Another-array: The second list to concatenate with the first list
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Write
-parent: Files
+parent: File
 grand_parent: Actions
 ---
 # Write

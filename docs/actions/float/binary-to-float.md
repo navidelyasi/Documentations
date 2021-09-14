@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Array Shuffle
-parent: Array
+title: Binary to Float
+parent: Float
 grand_parent: Actions
 ---
-# Array Shuffle
-To randomly shuffle elements of the list.
+# Binary to Float
+Parses a binary into a float.
 
 ## Properties
 ```yaml
-Array: Location of the list to shuffle the values
+String: Location of the binary data to parse
 ```
 
 ## Output

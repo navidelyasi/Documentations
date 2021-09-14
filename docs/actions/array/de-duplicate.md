@@ -4,4 +4,15 @@ title: Array de-Duplicate
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array de-Duplicate
+Removes duplicate lists
+
+## Properties
+```yaml
+Array: Location of the data element to remove duplicate lists
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

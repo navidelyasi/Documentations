@@ -4,4 +4,15 @@ title: Integer to Float
 parent: Integer
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Integer to Float
+Returns a float which corresponds to the integer.
+
+## Properties
+```yaml
+Integer: Location of the integer to convert into float
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

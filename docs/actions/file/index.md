@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Files
+title: File
 parent: Actions
 has_children: true
 permalink: /docs/actions/files

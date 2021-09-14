@@ -4,4 +4,15 @@ title: Array Random
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array Random
+Returns a random value from the list.
+
+## Properties
+```yaml
+Array: Location of the list to get the value from
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

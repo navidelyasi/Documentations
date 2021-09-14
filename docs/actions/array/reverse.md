@@ -4,4 +4,15 @@ title: Array Reverse
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array Reverse
+Returns a list with the value in reverse order.
+
+## Properties
+```yaml
+Array: Location of the list to reverse the values
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

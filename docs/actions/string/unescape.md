@@ -1,15 +1,15 @@
 ---
 layout: default
-title: String Base 16 Encode
+title: String Unescape
 parent: Strings
 grand_parent: Actions
 ---
-# String Base 16 Encode (String to Base 16)
-Encodes string to base 16.
+# String Unescape
+Removes escape backslash “\” from the string.
 
 ## Properties
 ```yaml
-String: Location of the string to convert into base 16
+String: Location of the string to work on
 ```
 
 ## Output

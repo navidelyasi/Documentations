@@ -4,4 +4,16 @@ title: Object Get
 parent: Object
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Object Get (Get Value)
+Gets the value for a specific key in map.
+
+## Properties
+```yaml
+Object: Location of the object to get the value from
+Key: The key of the value to be retrieved
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

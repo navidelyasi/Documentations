@@ -1,15 +1,16 @@
 ---
 layout: default
-title: String Base 16 Encode
+title: String Join
 parent: Strings
 grand_parent: Actions
 ---
-# String Base 16 Encode (String to Base 16)
-Encodes string to base 16.
+# String Join
+Join two or more strings together.
 
 ## Properties
 ```yaml
-String: Location of the string to convert into base 16
+Array: Array of strings to join
+Separator: Separator to insert between the strings
 ```
 
 ## Output

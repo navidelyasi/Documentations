@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Append
-parent: Files
+parent: File
 grand_parent: Actions
 ---
 # Append

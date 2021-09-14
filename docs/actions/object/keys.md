@@ -4,4 +4,15 @@ title: Object Keys
 parent: Object
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Object Keys (Returns all the keys)
+Returns all keys from map.
+
+## Properties
+```yaml
+Object: Location of the object to retrieve the keys from
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

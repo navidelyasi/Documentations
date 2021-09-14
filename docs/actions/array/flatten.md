@@ -4,4 +4,15 @@ title: Array Flatten
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array Flatten
+Flattens the given list of nested lists.
+
+## Properties
+```yaml
+Array: Location of the list to flatten
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

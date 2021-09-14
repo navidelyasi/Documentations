@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Array To String
+title: Array To Object
 parent: Array
 grand_parent: Actions
 ---
-# Array To String
-Converts a list of strings into a single string.
+# Array To Object
+Converts a list of strings into a single object.
 
 ## Properties
 ```yaml

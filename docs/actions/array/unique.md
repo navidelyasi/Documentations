@@ -4,4 +4,15 @@ title: Array Unique
 parent: Array
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Array Unique
+Removes duplicate elements.
+
+## Properties
+```yaml
+Array: Location of the list to check for duplicates
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

@@ -4,4 +4,15 @@ title: String Length
 parent: Strings
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# String Length (Counts the number of characters in the string)
+Returns the number of Unicode graphemes in a UTF-8 string.
+
+## Properties
+```yaml
+String: Location of the string to get the length
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```

@@ -4,4 +4,18 @@ title: String Trim Trailing
 parent: Strings
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# String Trim Trailing (Trim Trailing whitespaces)
+Returns a string where all trailing Unicode whitespaces has been removed.
+
+## Properties
+```yaml
+String: Location of the string to trim
+```
+
+## Output
+```yaml
+Output-location: Location to store the output data
+```
+
+### Example
+Trimming a string `“ abcn ”` would return `” abc”`

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Read
-parent: Files
+parent: File
 grand_parent: Actions
 ---
 # Read

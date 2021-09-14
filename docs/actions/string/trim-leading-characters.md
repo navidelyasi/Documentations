@@ -1,11 +1,11 @@
 ---
 layout: default
-title: String Trim Characters
+title: String Trim Leading Characters
 parent: Strings
 grand_parent: Actions
 ---
-# String Trim Characters (Trim Characters from front and back of the string)
-Returns a string where all leading and trailing characters have been removed.
+# String Trim Leading Characters
+Returns a string where all leading to_trim characters have been removed.
 
 ## Properties
 ```yaml
@@ -19,4 +19,4 @@ Output-location: Location to store the output data
 ```
 
 ### Example
-Trimming a string `“a abc a”` with the character `“a”` would return `” abc “`
+Trimming a string `“__ abc _”` with the character `“_”` would return `” abc _”`
