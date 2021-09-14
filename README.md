@@ -11,13 +11,17 @@ You can either make update directly from the Github website or clone the reposit
 All changes are reviewed and edited by the editors before being published.
 
 #### Updating using Github website
+All the pages are located in the docs folder
+1. Select the file you wish to updates
+2. Press the Edit button to open the editor
+![Open editor](/assets/images/readme1.png)
+3. Press Propose Changes button after filling out the title and details
+![Commit Changes](/assets/images/readme2.png)
 
-* All the pages are located in the docs folder
+#### Updating by Pull Request
 
-#### Updating by cloning the repository
-
-* Clone [API AutoFlow Github Repository](https://github.com/API-AutoFlow/Documentations/)
-* Make appropriate changes and commit (fetch before committing to avoid conflict)
+* Clone/Fork [API AutoFlow Github Repository](https://github.com/API-AutoFlow/Documentations/)
+* Make appropriate changes and create a pull request
 
 #### Design and development principles of this document:
 

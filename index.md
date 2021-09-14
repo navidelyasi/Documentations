@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Home
+title: Overview
 nav_order: 1
-description: "API AutoFlow Documentation is a community driven material and hosted on GitHub Pages."
+description: "Learn how to use API AutoFlow from the experts."
 permalink: /
 ---
 <p align="center">
     <h1 align="center">API AutoFlow Documentations</h1>
-    <p align="center">Accelerate your digital transformation strategy <br>with
-no-code development and deliver faster to the market</p>
+    <p align="center">Accelerate your digital transformation strategy<br>
+    with no-code development and deliver faster to the market</p>
 </p>
 
 ## Quick Start
@@ -46,8 +46,10 @@ Search engine is located at the top of the page. Enter the keyword to find the r
 
 
 
-## How to make changes to the documentations
+## How to contribute and make changes to the documentations
 If you had difficulty understanding or following certain parts of the documentation, more-than-likely someone else would go through the same.
+
+Follow the README instructions.
 
 [Make changes on GitHub](https://github.com/API-AutoFlow/Documentations){: .btn .fs-5 .mb-4 .mb-md-0 }
 
