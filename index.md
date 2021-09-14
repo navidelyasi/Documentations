@@ -15,7 +15,7 @@ no-code development and deliver faster to the market</p>
 
 Get started by creating an account on API AutoFlow Cloud.
 
-[API AutoFlow Cloud](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[API AutoFlow Cloud](https://console.apiautoflow.com){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Tutorial
 
@@ -51,7 +51,7 @@ If you had difficulty understanding or following certain parts of the documentat
 
 [Make changes on GitHub](https://github.com/API-AutoFlow/Documentations){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-or email your proposed changes to docs@interactor.com.
+or email your proposed changes to it@interactor.com.
 
 #### Thank you to the contributors of API AutoFlow Documentations!
 
