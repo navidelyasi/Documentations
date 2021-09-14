@@ -8,8 +8,6 @@ nav_order: 5
 # Templates
 
 
-
-
 [Open Templates](https://www.apiautoflow.com/template){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---

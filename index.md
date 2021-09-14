@@ -46,13 +46,12 @@ Search engine is located at the top of the page. Enter the keyword to find the r
 
 
 
-### How to make changes to the documentations
+## How to make changes to the documentations
 If you had difficulty understanding or following certain parts of the documentation, more-than-likely someone else would go through the same.
 
-Propose changes to the content by [edits on GitHub](https://github.com/API-AutoFlow/Documentations){: .btn .fs-5 .mb-4 .mb-md-0 } or email your proposed changes to docs@interactor.com.
+[Make changes on GitHub](https://github.com/API-AutoFlow/Documentations){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/API-AutoFlow/Documentations/. This documentation is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+or email your proposed changes to docs@interactor.com.
 
 #### Thank you to the contributors of API AutoFlow Documentations!
 
@@ -64,10 +63,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/API-Au
 {% endfor %}
 </ul>
 
-### Code of Conduct
-
-API AutoFlow is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
 
 API AutoFlow Documentation is &copy; 2014-{{ "now" | date: "%Y" }} by [Interactor](https://www.interactor.com).
