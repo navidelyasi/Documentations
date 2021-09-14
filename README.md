@@ -13,7 +13,7 @@ All changes are reviewed and edited by the editors before being published.
 
 ### Updating using Github website
 All the pages are located in the docs folder
-1. Select the file you wish to updates
+1. Select the file you wish to update
 2. Press the Edit button to open the editor
 ![Open editor](/assets/images/readme1.png)
 3. Press Propose Changes button after filling out the title and details
