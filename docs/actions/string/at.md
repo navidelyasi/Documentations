@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String At
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String At (Get character at nth position)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Replace Suffix
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Replace Suffix (Replaces the suffix with the characters)

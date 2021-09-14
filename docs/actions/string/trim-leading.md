@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Trim Leading
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Trim Leading (Trim whitespace in the front of the string)

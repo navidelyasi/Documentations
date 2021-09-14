@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Replace Prefix
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Replace Prefix (Replaces prefix with characters)

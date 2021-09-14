@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String URI Query to Object
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String URI Query to Object

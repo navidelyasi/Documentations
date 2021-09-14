@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Character Encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Character Encode

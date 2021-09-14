@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Ends With
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Ends With (Returns string that ends with a given value)

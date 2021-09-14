@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Duplicate
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Duplicate (Dupliate string n times)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Split At
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Split At (Split at a given position of string into array)

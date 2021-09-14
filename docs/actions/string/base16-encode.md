@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Base 16 Encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Base 16 Encode (String to Base 16)

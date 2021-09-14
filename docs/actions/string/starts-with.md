@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Starts With
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Starts With (Find string with starts with)

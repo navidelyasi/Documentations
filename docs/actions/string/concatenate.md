@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Concatenate
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Concatenate (Joins two strings)

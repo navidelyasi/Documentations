@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Trim Leading Characters
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Trim Leading Characters

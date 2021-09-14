@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String URI Percent Decode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String URI Percent Decode (Percent Unescape a URI)

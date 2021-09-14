@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Regex Replace
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Regex Replace

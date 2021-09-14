@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Slice
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Slice (Slices the string)

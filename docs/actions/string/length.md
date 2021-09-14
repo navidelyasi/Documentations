@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Length
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Length (Counts the number of characters in the string)

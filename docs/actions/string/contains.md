@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Contains
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Contains (Checks if strings contains a given string)

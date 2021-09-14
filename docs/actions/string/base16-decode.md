@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Base 16 Decode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Base 16 Decode (Base 16 to String)

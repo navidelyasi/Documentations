@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Escape
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Escape (Escape in whitespace)

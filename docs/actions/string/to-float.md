@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String to Float
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String to Float

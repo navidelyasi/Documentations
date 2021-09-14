@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Downcase
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Downcase (Downcase ALL characters)

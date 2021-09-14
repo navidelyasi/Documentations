@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Unescape
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Unescape

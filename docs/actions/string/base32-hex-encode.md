@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Base 32 Hex Encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Base 32 Hex Encode (String to Base 32 Hex)

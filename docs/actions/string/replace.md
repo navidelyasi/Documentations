@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Replace
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Replace (Replace Character)

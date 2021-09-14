@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Upcase
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Upcase (Capitalizes ALL characters)

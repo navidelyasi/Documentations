@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String URI Percent Encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String URI Percent Encode (Percentage Escape All Characters)

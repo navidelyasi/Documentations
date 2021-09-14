@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String is Equal
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String is Equal (Checks if two strings are equal)

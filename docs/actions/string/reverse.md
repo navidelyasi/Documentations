@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Reverse
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Reverse (Reverses the string)

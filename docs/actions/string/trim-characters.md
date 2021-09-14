@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Trim Characters
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Trim Characters (Trim Characters from front and back of the string)

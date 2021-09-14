@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Replace Trailing
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Replace Trailing (Replaces trailing characters)

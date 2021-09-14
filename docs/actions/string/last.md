@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Last
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Last (Gets the last character of the string)

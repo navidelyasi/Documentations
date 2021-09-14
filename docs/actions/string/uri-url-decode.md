@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String URI URL decode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String URI URL decode (Decodes “x-www-form-urlencoded” into String)

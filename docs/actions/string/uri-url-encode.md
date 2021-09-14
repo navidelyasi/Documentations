@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String URI URL encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String URI URL encode (Encodes String as “x-www-form-urlencoded”)

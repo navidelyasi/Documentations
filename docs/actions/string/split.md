@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Split
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Split (Split the string into array)

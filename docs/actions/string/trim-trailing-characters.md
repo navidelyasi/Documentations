@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Trim Trailing Characters
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Trim Trailing Characters

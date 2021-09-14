@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Regex Scan
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Regex Scan

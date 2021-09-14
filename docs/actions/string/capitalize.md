@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Capitalize
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Capitalize (Capitalizes the first character)

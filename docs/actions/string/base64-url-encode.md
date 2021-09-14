@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Base 64 URL Encode
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Base 64 URL Encode (String to Base 64 URL)

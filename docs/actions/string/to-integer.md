@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String to Integer
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String to Integer

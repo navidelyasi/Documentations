@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Replace Leading
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Replace Leading (Replaces the leading character)

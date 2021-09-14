@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Pad Trailing
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Pad Trailing (Pads the trailing part of the string)

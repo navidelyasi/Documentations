@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String First
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String First (Gets the first character of the string)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Regex Capture to Object
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Regex to Object

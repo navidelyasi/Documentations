@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Pad Leading
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Pad Leading (Pads the leading part of the string)

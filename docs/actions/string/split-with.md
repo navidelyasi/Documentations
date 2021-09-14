@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Split With
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Split With (Split with a pattern)

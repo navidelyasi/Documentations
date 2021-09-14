@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Trim Trailing
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Trim Trailing (Trim Trailing whitespaces)

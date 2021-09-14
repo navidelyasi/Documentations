@@ -1,7 +1,7 @@
 ---
 layout: default
 title: String Regex Split
-parent: Strings
+parent: String
 grand_parent: Actions
 ---
 # String Regex Split
