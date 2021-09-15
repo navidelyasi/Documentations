@@ -4,8 +4,9 @@ title: Iteration forEach
 parent: Iteration
 grand_parent: Actions
 ---
-#Iteration forEach
-forEach iterates over the array and apply the values to the actions (inside the iteration).
+# Iteration forEach
+forEach iterates over an array.
+in each iteration applies one element of array (as value) to the actions whithin the iteration.
 
 ## Properties
 ```yaml
