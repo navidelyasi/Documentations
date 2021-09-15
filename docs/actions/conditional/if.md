@@ -7,8 +7,8 @@ grand_parent: Actions
 # IF Condition
 If condition in API AutoFlow works similar to the if statement in programming languages.
 
-1. First start by setting condition properties
-2. Next drag and drop actions to be executed for TRUE and FALSE conditions
+1. First, start by setting condition properties
+2. Next, drag and drop actions to be executed for TRUE and FALSE conditions
 
 ## Properties
 ```yaml
