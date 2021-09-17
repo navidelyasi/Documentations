@@ -42,8 +42,13 @@ Smarter ways to use API AutoFlow
 Collection of common mistakes and solutions
 
 ## Documentation Search
-The content of the documentation is searchable using keywords. Search engine is located at the top of the page. 
+The content of the documentation is searchable using keywords. Search engine is located at the top of the page.
 
+
+## Cloud vs. Install
+API AutoFlow is available as a Cloud (SaaS) service as well as an Installable that you can deploy in your environment.
+
+Install version has more features that are related to your environment. Those features are labeled with an **[i]** next to the title.
 
 ## How to contribute and make changes to the documentations
 If you had difficulty understanding or following certain parts of the documentation, more-than-likely someone else would go through the same.
