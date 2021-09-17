@@ -7,25 +7,20 @@ nav_order: 5
 
 # Templates
 
+Kickstart your solution by remixing an open source templates.
+
+## Download More Solution Templates
+Example open source solutions can be found in the below page
 
 [Open Templates](https://www.apiautoflow.com/template){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
----
-For the rest of this tutorial, we will be working to build a simple solution that exposes data from Postgres database with custom API. If you’re not familiar with Postgres, don’t worry! No real Postgres experience is needed!
-
-At this point, your development team is quite small and you’re simply building an app to prove out your MVP (minimum viable product). You want to show how it works and what it’s capable of doing without needing to think about how it will work for a large team, multiple developers, etc.
-
-The sample solution is available from GitHub open-source configuration templates.
-
-Download the Sample Solution
+Simply download the configuration of the select template and upload to your API AutoFlow account.
 
 
+## List your open source solution
 
-## Download More Solution Templates
-GitHub API AutoFlow Solutions Repository
+Share your open source app with us and we’ll list it as a community example on our template page.
 
-Examples of solutions can be found in the below repository
+Share your solution on
 
-
-[GitHub Solution Repositories](https://github.com/API-AutoFlow/Documentations){: .btn .btn-blue }
-[]()
+[API AutoFlow Github](https://github.com/API-AutoFlow/){: .btn .btn-blue }

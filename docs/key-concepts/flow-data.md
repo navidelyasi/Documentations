@@ -59,7 +59,7 @@ There are 8 data types and 3 data references. To change the data type by selecti
 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
-Copy, Paste, Delete Data just like with actions.  The feature is useful when applying the same data structure to many different actions.
+> Copy, Paste, Delete Data just like with actions.  The feature is useful when applying the same data structure to many different actions.
 
 ## Reference Type
 To reference data in the flow transaction data.  It can be understood as a “pointer” to the variable.
@@ -69,10 +69,10 @@ In the example below, [R] is referencing or pointing to the request-body. Hence 
 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
-Dynamic reference pointer
-
-The reference can be dynamic.
-
-Example A: This example uses static value firstname to directly reference the data
-
-Example B: This example gets the value from another data-set “sample-field”
+> Dynamic reference pointer
+>
+> The reference can be dynamic.
+>
+> Example A: This example uses static value firstname to directly reference the data
+>
+> Example B: This example gets the value from another data-set “sample-field”

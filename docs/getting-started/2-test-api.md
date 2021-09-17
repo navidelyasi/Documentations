@@ -4,67 +4,42 @@ title: Part 2 Test the APIs created
 parent: Getting Started
 nav_order: 2
 ---
+# Part 2: Test the APIs created
+There are several ways to test the APIs you created.
 
-# Part 3: Test the APIs created
-{: .no_toc }
+1. Testing using Web browser
+2. External Tools: API Testing tools such as Postman.
+2. Internal Tools: Built-in Data Simulation and Mock Data
 
-## Table of contents
-{: .no_toc .text-delta }
----
-There are several ways to test the API.
+## 1. Testing using Web browser
+Since the solution we created in Part One was an HTTP server, we can test the solution using a browser.
 
-1. Internal Testing: Built-in Data Simulation and Mock Data
-2. External Testing: API Testing tools such as Postman.
+Go to `http://api.apiautoflow.com/{your-id}/{your-server-name}/{your-endpoint-name}`.
 
-## Internal Testing: Data Simulation and Mock Data
-### What is Simulated (Mock) Data?
-Mock data is the simulated or made-up data.
+You can also find the server URL by selecting the server box.
 
-What type of data can you mock in the product?
+![Data Simulation](/assets/images/getting-started-test-api.png)
 
-1. HTTP Requests
-The process of creating a flow is to design a chain of actions that provides desired response to the request.  By simulating the request data within the product, developers can visualize the expected response as the flow is built and actions are applied.
+Next go ahead and open the browser and navigate to your solution URL.
 
-2. Actions receiving data
-Database and communication actions receive data from another server.  During development, it may not be ideal to execute those actions too many times for reasons such as rate limiting and slow responses delaying the development process.
+![Data Simulation](/assets/images/getting-started-test-api1.png)
 
-## Simulating HTTP Request
+<img src="/assets/images/tip-icon.png" alt="!" width="20"/> Tips
 
-![Data Simulation](/assets/images/data-simulation.png)
+> URLs are case sensitive. So `test` is different to `Test`.
 
-As discussed earlier on understanding flow creating a flow is all about how you manipulate the HTTP request data to send back the desired HTTP response.
+## 2. External Tools
+There are many API Testing tools such as Postman.
+The APIs you created can also be tested using API testing tools such as Postman. One of the advantage of using external tool is that you can send data to the APIs.
 
-Flow Test Simulation feature of API AutoFlow enables you to mock the HTTP Request data.
+![Postman](/assets/images/postman_demo.png)
 
-The request data simulated in  are made available as “mock data” in .   The expected response gets displaced in .
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-Multiple sets of request data can be simulated by pressing the + button.  Ideal for testing the solution on varying requests.
-
+## 3. Internal Testing
+API AutoFlow provides data simulation features to test your solution as you are building it. Data simulation can be enabled by turning the Dev Mode to `ON`.
 
 ![Developer Mode](/assets/images/dev-mode-toggle.png)
 
-Data simulation can be enabled by turning the Dev Mode ON or OFF.
 
-## Response from the Communication Action
-The actions that expect a response from another server can mock expected results.
+We will go more in details in the <a href="" alt="">Key Concept</a> section of the documentation, but at a high-level you have the ability to simulate the HTTP Request data **[A]**, then use the data in the actions **[B]**, and see the resulting HTTP response data **[C]** of the solution.
 
-The mock result feature can be turned on and off by clicking the check box .
-
-The simulated mock data in  are made available in the next action as “mock data” in .   
-
-![Data Simulation Action](/assets/images/data-simulation-action.png)
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-1. Start with the mock-result ON to avoid making unwanted calls to the server
-Note: under dev mode, flow is executed every time you click on an action
-2. Use real data as mock data
-After you have configured the action, switch the mock data OFF .  The received data will appear in the next action .  Cut and paste the data back into the action’s mock data.
-
-![Data Simulation Action](/assets/images/data-simulation-action-flow.png)
-
-## External Testing: API Testing tools such as Postman
-The APIs you created can also be tested using API testing tools such as Postman.
-![Postman](/assets/images/postman_demo.png)
+![Data Simulation](/assets/images/data-simulation.png)

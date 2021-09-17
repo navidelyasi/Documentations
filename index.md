@@ -42,8 +42,7 @@ Smarter ways to use API AutoFlow
 Collection of common mistakes and solutions
 
 ## Documentation Search
-Search engine is located at the top of the page. Enter the keyword to find the relevant pages.
-
+The content of the documentation is searchable using keywords. Search engine is located at the top of the page. 
 
 
 ## How to contribute and make changes to the documentations
