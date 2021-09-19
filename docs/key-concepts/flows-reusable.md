@@ -6,7 +6,11 @@ nav_order: 99
 ---
 
 # Re-usable Flows
-Similar to the functions in programming languages, a reusable flow takes an input and produces an output.
+As the solutions become complex, there are components that are used in multiple places.
+
+Reusable flow is a way to create the flow once and apply it many time in the solution.
+
+Conceptually it is similar to `functions` in programming. It takes an input and produces an output.
 
 ![Flow](/assets/images/flow.png)
 

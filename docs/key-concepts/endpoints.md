@@ -6,59 +6,19 @@ nav_order: 4
 ---
 
 # Endpoints
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
-An HTTP or API endpoint is basically a fancy word for a URL/URI of a server or service.
-
+The API endpoint is the touchpoints for your API. It is the URL address for the service you built. Each endpoint is the flow you create on API AutoFlow with set of actions that carry out their functions.
 
 ## Path
 URI path.   `/`  is the root path
 
-## Serve File
+## Serve Files
 Way to host a file such as index.html
-See below for more details
+
+See below for more [details](#Server Files)
 
 ## Method
-Defines a set of request methods to indicate the desired action to be performed for a given resource.
+Defines the HTTP Request Methods to indicate the desired action to be performed for a given resource.
 Most commonly used methods are POST, GET, PUT, PATCH, and DELETE.
 
 
 ![Endpoint](/assets/images/endpoint.png)
-
-
-## Serve File
-
-
-**Serve Files** is a means to host the files. You can point to the dist directory generated from frameworks such as Vue.js, Angular, ReactJS, etc
-
-#### For example
-
-* Given a folder:  my-folder/index.html
-* An endpoint with path:  /ui
-
-Serve files: my-folder
-
-Then you can open:
-
-```
-<protocol>://<address>:<port>/ui/index.html
-```
-
-
-![Endpoint](/assets/images/endpoint1.png)
-
-
-## Body [Canary]
-
-**__Server Endpoint Body is in Canary stage__**
-
-Body applies validation to incoming requests.
-
-It is a JSON Schema.
-
-The future release will have a tighter integration with the Schema.
-
-![Endpoint](/assets/images/endpoint1.png)

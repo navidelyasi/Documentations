@@ -11,9 +11,11 @@ To create your first solution, you first need to create an account on API AutoFl
 
 [API AutoFlow Cloud](https://console.apiautoflow.com/){: .btn .btn-primary }
 
-> Alternatively, you can follow the <a href="" alt="">instructions</a> to download and try with the install version.
+Alternatively, you can follow the <a href="" alt="">instructions</a> to download and try the install version.
 
-The first solution we'll create to together is the good old "Hello World!" solution where you create an API to print back a string text value of `"Hello World!"`.
+## Hello World!
+
+The first solution we'll create to together is the good old "Hello World!" solution where you create an API that prints a string value of `"Hello World!"`.
 
 To do that you will start by creating three things on the solution page.
 1. Server
@@ -30,21 +32,23 @@ Add a HTTP server by selecting the [Add] drop-down on the top of the screen. API
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/> Tips
 
 > The server will be created with a random port number. You can change the port number by selecting the Server box which opens the Server settings.
-
-**Change Port Number**
-
-Change the port number to `1111`
-
-![Port Number](/assets/images/port_number_change.png)
+>
+> **Change Port Number**
+>
+> Change the port number to `1111`
+>
+> ![Port Number](/assets/images/port_number_change.png)
 
 ## 2. Create Endpoint
-Add a server endpoint by selecting the [Add] drop-down on the top of the screen.  Follow below steps.
+Add a server endpoint by selecting the **[Add]** drop-down on the top of the screen.  
+
+Follow below steps.
 
 ![Create Endpoint](/assets/images/create-endpoint.png)
 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/> Tips
 
-> The endpoint by default has a root path `/`. You can change the root path by selecting the Endpoint box which opens the Endpoint settings.
+> The endpoint by default has a root path `/`. You can change the root path to /test.
 
 ### Change Path
 
@@ -64,7 +68,7 @@ From the right pane, select the **Action** tab and navigate to Data category. Fr
 
 > Actions are categorized based on their functions. You can also use the search feature to quickly find the action you need.  List of all the actions are in the <a href="" alt="">Action</a> section of the documentations.
 
-#### Set data output to HTTP Response Body.
+### Set data output to HTTP Response Body.
 Since we are using an HTTP service, we can send respond back in the HTTP Response Body. This will enable us to test the solution on a regular web browser.
 
 Drag and drop the response body from right-bottom pane to the action's output.

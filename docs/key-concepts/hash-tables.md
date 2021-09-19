@@ -6,6 +6,15 @@ nav_order: 8
 ---
 
 # Tables (Hash)
-Create a table to store data in the memory.  Data is stored in a hash table with a key and a value.  Actions in the Table category are used to set, get, and delete data from the tables.
+Hash table is a `persistent` internal data storage. Which means, the data is not lost even if you reboot system.
+
+Hash table stores value in a `Key-Value` pair.
 
 ![table](/assets/images/table.png)
+
+## Accessing the data
+Use action **[TABLE](https://docs.apiautoflow.com/docs/actions/table)** to access the data.
+
+Subsequently, you can get the environment variable from the data-type drop down.
+
+![API AutoFlow Table Data Access](/assets/images/table-data-access.png)

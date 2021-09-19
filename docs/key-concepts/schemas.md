@@ -6,7 +6,12 @@ nav_order: 14
 ---
 
 # Schemas
-A list of predefined data structures. HTTP OpenAPI, Binary, and ABNF types are supported
+A list of predefined data structures.
+
+API AutoFlow schema supports
+* HTTP OpenAPI
+* Binary, and
+* ABNF
 
 ![Upload Schema](/assets/images/schemas-1.png)
 

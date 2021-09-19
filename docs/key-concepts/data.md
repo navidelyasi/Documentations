@@ -5,49 +5,49 @@ parent: Key Concepts
 nav_order: 99
 ---
 
-# Flow Data
+# Data
 API AutoFlow supports many types of data but the most commonly used is HTTP.  Understanding data structure is important because the flow is about applying actions to the received data and constructing the desired response.
-
-Below is what an HTTP Request and Response data look like.  API AutoFlow receives the HTTP Request data -> Manipulate the data using actions -> Sends the HTTP Response data
 
 # HTTP Data structure
-API AutoFlow supports many types of data but the most commonly used is HTTP.  Understanding data structure is important because the flow is about applying actions to the received data and constructing the desired response.
-
 Below is what an HTTP Request and Response data look like.  API AutoFlow receives the HTTP Request data -> Manipulate the data using actions -> Sends the HTTP Response data
 
 ![API AutoFlow HTTP header](/assets/images/data-simulator-http.png)
 
 ## Data flowing between actions
 We discussed earlier how flows are simply a chain of actions. The data gets passed from one action to another applying changes based on the action’s properties.
-The data that goes through the flow is called “Flow transaction data’. More accurately, it is the data that each action receives from the previous action. The action applies changes to the data and passes it along to the next action.  Hence the action chaining takes place.
+The action receives from the previous action, applies changes to the data and passes to the next action.  Hence the action chaining takes place.
 
 ![API AutoFlow Data Flow](/assets/images/data-flow.png)
 
 Let’s look at the above example.
-HTTP server receives request (input) data.
-The data is passed along to the endpoint with the matching path /helloworld
-The endpoint passes the data to the next action in the flow
-The data/set action assigns a string value of “Hello World” to a target called “Result“.
+
+* The HTTP server receives request (input) data.
+* The data is passed along to the endpoint with the matching path /helloworld
+* The endpoint passes the data to the next action in the flow
+* The data/set action assigns a string value of “Hello World” to a target called “Result“.
 Target is similar to a variable in a programming language
-The next data/set action assigns the “Result” to the “Response Body (output)”
-Calling this endpoint returns the value of “Hello World”
+* The next data/set action assigns the “Result” to the “Response Body (output)”
+* Calling this endpoint returns the value of “Hello World”
 
 
 ## Apply data to actions
-One of the unique features that make API AutoFlow so easy to use is the availability of HTTP data.  The data can be applied directly to the actions.
+One of the unique features that make API AutoFlow so easy to use is the availability of HTTP data directly to the actions.
 
 ![API AutoFlow Applying Data to Flow](/assets/images/apply-data-to-action.gif)
 
-Apply changes to the flow data by dragging-and-dropping the field in the action’s settings.
-In the above example,
-by applying the Response Body to the action’s Output at-location
-you are configuring the Action:data/set to store the data in Response Body
-In other words, when the flow (endpoint) is executed, the Response Body will have the value ‘Hello World’
-Note: Reminder that the data that’s been displayed is what the action received from the previous component. Once the current action applies the changes, the flow data with the new value is passed to the next component
+Apply changes to the action by dragging-and-dropping the data to the action’s settings.
+
+In the above example, by applying the Response Body to the action’s `Output` you are configuring the `Action:data/set` to store the data in `Response Body`.
+
+In other words, when the flow is executed, the Response Body will have the value ‘Hello World’
+
+Note: The data that’s been displayed in the right pane is the data received from the previous action. Once the current action applies the changes, the changed data is passed to the next action.
 
 ## Data Referencing
-To reference data in the flow transaction data.  It can be understood as a “pointer” to the variable.
-[R] [S] is the reference or point to the Flow Transaction Data.
+Above use of data in action can be comparable to `Reference` in the programming world or even a “pointer” to a variable.
+
+`[R]` data type is the reference or pointer to the to the data.
+
 In the example below, [R] is referencing or pointing to the request-body. Hence the data received on the request body will be applied to the action.
 
 ![API AutoFlow Applying Data Referencing](/assets/images/data-referencing.png)
@@ -55,8 +55,11 @@ In the example below, [R] is referencing or pointing to the request-body. Hence 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 
 > Dynamic reference pointer
+>
 > The reference can be dynamic.
+>
 > Example A: This example uses static value firstname to directly reference the data
+>
 > Example B: This example gets the value from another data-set “sample-field”
 
 
@@ -74,50 +77,3 @@ Target is similar to a variable in a programming language
 5. The next data/set action assigns the “Result” to the “Response Body (output)”
 
 Calling this endpoint returns the value of “Hello World”
-
-## Using the Data
-One of the unique features that make API AutoFlow so easy to use is the availability of HTTP data.  The data can be applied directly to the actions.
-
-Apply changes to the flow data by dragging-and-dropping the field in the action’s settings.
-
-In the above example,
-
-1. by applying the Response Body to the action’s Output at-location
-2. you are configuring the Action:data/set to store the data in Response Body
-
-In other words, when the flow (endpoint) is executed, the **Response Body** will have the value __‘Hello World’Note: Reminder that the data that’s been displayed is what the action received from the previous component. Once the current action applies the changes, the flow data with the new value is passed to the next component__
-
-## Data Types
-There are 8 data types and 3 data references. To change the data type by selecting from the drop-down.
-
-* **Array**: Array type represents a collection of elements
-* **Bits**: Binary
-* **Boolean**: Boolean type is true or false
-* **Empty**: Empty type is the absence of value
-* **Binary in Hex**: Hex representation of Binary
-* **Number**: Number type represents numeric data
-* **String**: String type represents textual data
-* **Object**: Object type represents a collection of properties referenced by an identifier
-* **Reference**: Pointer to data. Get value from a variable or mock data (refer to data reference)
-* **Table**: Get value from table
-* **File**: Get value from File
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-> Copy, Paste, Delete Data just like with actions.  The feature is useful when applying the same data structure to many different actions.
-
-## Reference Type
-To reference data in the flow transaction data.  It can be understood as a “pointer” to the variable.
-
-[R] [S] is the reference or point to the Flow Transaction Data.
-In the example below, [R] is referencing or pointing to the request-body. Hence the data received on the request body will be applied to the action.
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-> Dynamic reference pointer
->
-> The reference can be dynamic.
->
-> Example A: This example uses static value firstname to directly reference the data
->
-> Example B: This example gets the value from another data-set “sample-field”

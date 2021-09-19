@@ -6,10 +6,7 @@ nav_order: 3
 ---
 
 # Flows
-Flow is a “service” a developer creates in API AutoFlow to provide certain functionality.
-
-## What is a service?
-According to Wikipedia “a service refers to a software functionality (such as the retrieval of specified information or the execution of a set of operations) with a purpose that different clients can reuse for different purposes, together with the policies that should control its usage (For example, based on the identity of the client requesting the service)”
+Flow is a chain of actions to provide a service. It can be retrieval of specified information or the execution of a set of operations. 
 
 ## Action Chaining
 Creating a flow is about daisy “chaining actions”.  The actions alter the data to reach the desired result.
