@@ -1,7 +1,19 @@
 ---
 layout: default
-title: From Unix Time - Date Time
+title: From Unix Time
 parent: Date Time
 grand_parent: Actions
 ---
-{: .fs-6 .fw-300 }
+# Convert Unix time to UTC
+Converts the given Unix time to DateTime (UTC).
+
+## Properties
+```yaml
+Unix-time: Location of the UNIX Time
+Time-unit: Select from second, millisecond, microsecond, nanosecond
+```
+
+## Output
+```yaml
+Output-location: The location to store the timestamp
+```

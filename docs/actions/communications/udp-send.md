@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # UDP Send
-{: .no_toc }
-
 UDP Send actions send data to the address:port and the response is stored in the response-target.
 
 ## Properties

@@ -25,6 +25,10 @@ See below for more details
 Defines a set of request methods to indicate the desired action to be performed for a given resource.
 Most commonly used methods are POST, GET, PUT, PATCH, and DELETE.
 
+
+![Endpoint](/assets/images/endpoint.png)
+
+
 ## Serve File
 
 
@@ -43,6 +47,10 @@ Then you can open:
 <protocol>://<address>:<port>/ui/index.html
 ```
 
+
+![Endpoint](/assets/images/endpoint1.png)
+
+
 ## Body [Canary]
 
 **__Server Endpoint Body is in Canary stage__**
@@ -52,3 +60,5 @@ Body applies validation to incoming requests.
 It is a JSON Schema.
 
 The future release will have a tighter integration with the Schema.
+
+![Endpoint](/assets/images/endpoint1.png)

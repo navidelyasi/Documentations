@@ -6,11 +6,6 @@ nav_order: 3
 ---
 
 # Minimize Memory Storage
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
 Memory space is expensive in most deployments.  It also directly impacts the performance of the solution.
 
 A best practice is to minimize the amount of data stored in memory at any point.

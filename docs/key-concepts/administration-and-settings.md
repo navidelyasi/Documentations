@@ -6,13 +6,9 @@ nav_order: 4
 ---
 
 # Administration and Settings
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
 The administration section provides features to manage both product and configuration.
 
+![API AutoFlow Administration Access Control](/assets/images/admin.png)
 
 ## Sharing Solution Configuration
 
@@ -20,8 +16,10 @@ The solution can be shared by downloading and uploading the configuration.
 
 The configuration is in JSON format.
 
+![API AutoFlow Administration Access Share](/assets/images/admin-share.png)
+
 ## Access Control
 UserID based access control can be managed from the Administrator section.
 
 
-![Access Control](/assets/images/admin-access-control.png)
+![API AutoFlow Administration Access Control](/assets/images/admin-access-control.png)

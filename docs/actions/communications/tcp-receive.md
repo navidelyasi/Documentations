@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # TCP Receive
-{: .no_toc }
-
 TCP Receive action receives data from a bound Socket to the response-target.
 
 ## Properties

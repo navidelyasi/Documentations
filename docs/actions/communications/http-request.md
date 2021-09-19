@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # HTTP Request
-{: .no_toc }
-
 Makes HTTP request to APIs from the flow.
 
 ## Properties

@@ -6,11 +6,6 @@ nav_order: 2
 ---
 
 # Efficiency: Minimize compute processing
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
 There are actions that use more compute than others.  A general rule of thumb is to think of how much data processing the action has to perform.
 
 For example, a common data extraction use case of iterating over a list, selecting the value from each element, and inserting it into a new list.

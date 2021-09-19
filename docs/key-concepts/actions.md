@@ -5,15 +5,11 @@ parent: Key Concepts
 nav_order: 5
 ---
 
-# Re-usable Flows
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
----
+# Actions
 Actions are the basic building blocks for building the solution on API AutoFlow.
 
-API and Data Integration actions:
-Data handling actions:
-Apply Logic actions:
-Security actions:
+You daisy chain the actions to create the outcome you need. For example, to extract, transform, and load data from database, you would use below actions
+
+1. [Database]() Action to query the data
+2. [Iteration]() Action + [String]() actions to transform the data
+3. [Data Set]() Action to set the response.

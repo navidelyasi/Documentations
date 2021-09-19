@@ -3,37 +3,21 @@ layout: default
 title: Data Simulation (HTTP)
 parent: Data Simulation
 grand_parent: Key Concepts
-nav_order: 1
 ---
 
-# Navigation
-{: .no_toc }
+# Data Simulation (HTTP)
+HTTP data consists of Request and Response. API AutoFlow provides a feature to simulate HTTP request and see the resulting HTTP response.
 
-## Table of contents
-{: .no_toc .text-delta }
----
-Flow Test Simulation feature of API AutoFlow enables you to mock the HTTP Request data.
+![Developer Mode](/assets/images/data-simulator-http.png)
 
-## Response from the Communication Action
-The actions that expect a response from another server can mock expected results.
+Data simulation can be enabled by turning the Dev Mode to `ON`.
 
-The mock result feature can be turned on and off by clicking the check box .
-
-The simulated mock data in  are made available in the next action as “mock data” in .   
-
-![Data Simulation Action](/assets/images/data-simulation-action.png)
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-1. Start with the mock-result ON to avoid making unwanted calls to the server
-Note: under dev mode, flow is executed every time you click on an action
-2. Use real data as mock data
-After you have configured the action, switch the mock data OFF .  The received data will appear in the next action .  Cut and paste the data back into the action’s mock data.
-
-![Data Simulation Action](/assets/images/data-simulation-action-flow.png)
+![Developer Mode](/assets/images/dev-mode-toggle.png)
 
 
+The HTTP Request data **[A]** is made available throughout the flow **[B]**. The solution provides output as HTTP Response **[C]**.
 
+![Data Simulation](/assets/images/data-simulation.png)
 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 

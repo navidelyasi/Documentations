@@ -9,7 +9,7 @@ Action to log the data at a given point in the flow.
 
 ## Properties
 ```yaml
-Value: Value to log
+Value: Value to loga
 Level: The log category
 —- debug
 —- info

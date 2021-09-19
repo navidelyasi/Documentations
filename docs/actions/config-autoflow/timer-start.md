@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Timer Start
+title: Timer Start [ i ]
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Timer Start
+# Timer Start [ i ]
+**Install version only**
+
 Starts a timer.
 
 ## Properties

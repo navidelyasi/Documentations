@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # Syslog UDP RFC5424
-{: .no_toc }
-
 RFC5424 is “the new format” of Syslog.
 
 ## Properties

@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Timer Update
+title: Timer Update [ i ]
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Timer Update
+# Timer Update [ i ]
+**Install version only**
+
 Updates a timer with the provided configuration.
 
 ## Properties

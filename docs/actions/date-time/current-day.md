@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Date Time Now
+title: Current Day
 parent: Date Time
 grand_parent: Actions
 ---

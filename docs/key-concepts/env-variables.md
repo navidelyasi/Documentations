@@ -11,7 +11,10 @@ A global variable that can be reused throughout the solution.  The environment v
 Enables the value to be masked.
 
 ## Accessing the data
-Use action [data/get-variable](https://docs.apiautoflow.com/docs/actions/data/get-variable/) to access the data.
+Use action [data/get-variable](https://docs.apiautoflow.com/docs/actions/data/get-variable/) to access the data or from the data-type selection.
+
+![API AutoFlow Environment Variable](/assets/images/env-variable.png)
+
 
 <img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
 > Use Object or Array data type to store multiple values in the environment variable. If only a String data type is used to store a single value, multiple data/get-variable actions need to be used to access the individual value.

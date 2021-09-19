@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Timer Get
+title: Timer Get [ i ]
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Timer Get
+# Timer Get [ i ]
+**Install version only**
+
 Gets the configuration for a timer.
 
 ## Properties

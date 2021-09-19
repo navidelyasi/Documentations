@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # Syslog UDP RFC3164
-{: .no_toc }
-
 RFC3164 is “the old format” of Syslog.
 
 ## Properties

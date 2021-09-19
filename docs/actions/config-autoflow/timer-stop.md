@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Timer Stop
+title: Timer Stop [ i ]
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Timer Stop
+# Timer Stop [ i ]
+**Install version only**
+
 Stops a timer.
 
 ## Properties

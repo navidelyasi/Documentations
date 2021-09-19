@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Timer Delete
+title: Timer Delete [ i ]
 parent: Configure API Autoflow
 grand_parent: Actions
 ---
-# Timer Delete
+# Timer Delete [ i ]
+**Install version only**
+
 Deletes a timer
 
 ## Properties

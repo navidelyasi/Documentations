@@ -9,51 +9,31 @@ nav_order: 3
 ---
 
 # Servers
-{: .no_toc }
+Server in API AutoFlow are [application server](https://en.wikipedia.org/wiki/Application_server) that hosts applications.
 
-## Table of contents
-{: .no_toc .text-delta }
----
-This section is a “List view” of the servers created in the solution. When many servers are used, it can be difficult to go from one server to another in the “Solution Section”.  
+The servers can be viewed both in the Solution and Server pages.
+
+Th server page is simply a **List view** of the servers. When a large number servers are created, it can be difficult to visualize them on the solutions.
 
 One of the unique features of API AutoFlow is that there are no limits in the number of servers that can be created. The only limitation is the number of ports available.
 
-## Server Start & Stop
+## Starting & Stopping the Server
+The servers can be turned on and off, renamed, and deleted.
 
-[A] Servers managed from this section. They can be turned on and off, renamed, and deleted.
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
+![Upload Cert](/assets/images/server-off.png)
 
 ## Status indicators
- Green color indicates that the services are up and working correctly
 
- Grey color indicates the service is turned off
 
- Red color indicates that there’s an error. For example, conflict port number
+<img src="/assets/images/server-status-icon-green.png" alt="!" width="20"/>  `Green` color indicates that the services are up and working correctly
+
+<img src="/assets/images/server-status-icon-grey.png" alt="!" width="20"/>  `Grey` color indicates the service is turned off
+
+<img src="/assets/images/server-status-icon-red.png" alt="!" width="20"/>  `Red` color indicates that there’s an error. For example, conflicting port numbers
+
+![Upload Cert](/assets/images/server-status.png)
 
 ## Server Settings
+Configure the server.  Depending on the server created, the input fields necessary for that server will appear.
 
-
-## Port Number
-A number representing a communication endpoint.
-There are 65,535 port numbers to choose from.
-
-## Base path
-A prefix to apply to every path.
-A Base Path + Endpoint Path = Full Path
-For example
-
-```
-/api/v1 + /resouce = /api/v1/resource
-```
-
-## TLS
-Formerly known as SSL, TLS is an encryption protocol used to enable HTTPS service
-
-## Access Control
-Response header indicates whether the response can be shared with requesting code from the given method, origin, and header
-
-<img src="/assets/images/tip-icon.png" alt="!" width="20"/>  Tips
-
-## Reserved port numbers
-There are reserved port numbers that can not be used. Refer to commonly made mistakes for details.
+![Upload Cert](/assets/images/server-settings.png)

@@ -6,8 +6,6 @@ grand_parent: Actions
 ---
 
 # TCP Send
-{: .no_toc }
-
 TCP Send action sends data to the address:port and the response is stored in the response-target.
 
 ## Properties
