@@ -2,7 +2,7 @@
 layout: default
 title: Files
 parent: Key Concepts
-nav_order: 10
+nav_order: 13
 ---
 # Files
 The Files section is a way to upload files in the API AutoFlow.

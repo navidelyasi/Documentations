@@ -2,7 +2,7 @@
 layout: default
 title: Logs
 parent: Key Concepts
-nav_order: 99
+nav_order: 21
 ---
 
 # Logs

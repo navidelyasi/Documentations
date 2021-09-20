@@ -2,7 +2,7 @@
 layout: default
 title: Help
 parent: Key Concepts
-nav_order: 99
+nav_order: 20
 ---
 
 # In Product Help

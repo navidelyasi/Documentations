@@ -2,7 +2,7 @@
 layout: default
 title: Environment (Global) Variable
 parent: Key Concepts
-nav_order: 9
+nav_order: 15
 ---
 # Environment (Global) Variable
 A global variable that can be reused throughout the solution.  The environment variable is commonly used to store id, password, IP address, database schema, and more.

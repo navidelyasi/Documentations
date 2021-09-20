@@ -2,7 +2,7 @@
 layout: default
 title: Tables (Hash)
 parent: Key Concepts
-nav_order: 8
+nav_order: 10
 ---
 
 # Tables (Hash)

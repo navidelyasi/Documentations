@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Reusable Flow
-parent: Flows
-nav_order: 99
+parent: Key Concepts
+nav_order: 6
 ---
 
 # Re-usable Flows

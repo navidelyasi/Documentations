@@ -4,7 +4,7 @@ title: Clients
 parent: Key Concepts
 has_children: true
 permalink: /docs/actions/key-concepts/connections
-nav_order: 15
+nav_order: 19
 ---
 
 # Clients
