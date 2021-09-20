@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Data Simulation (HTTP)
-parent: Data Simulation
+title: Data Simulator (HTTP)
+parent: Data Simulator
 grand_parent: Key Concepts
 ---
 

@@ -8,7 +8,7 @@ nav_order: 8
 ---
 
 # Data Simulator
-Mock data is a simulated or made-up data for the purpose of testing the solution during development. There are two types of Data Simulation in API AutoFlow.
+Mock data is simulated or made-up data for the purpose of testing the solution during development. There are two types of Data Simulation in API AutoFlow.
 
 <details open markdown="block">
   {: .text-delta }

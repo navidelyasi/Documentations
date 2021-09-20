@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iteration forEach
+title: forEach
 parent: Iteration
 grand_parent: Actions
 ---

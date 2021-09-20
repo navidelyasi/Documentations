@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Check Connector Update [ o ]
-parent: Files
+title: Check Connector Update [ c ]
+parent: Flow
 grand_parent: Actions
 ---
-# Check Connector Update [ o ]
+# Check Connector Update [ c ]
 **Cloud version only**
 
 Be the first to write content for this page.

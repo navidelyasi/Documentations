@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iteration Find Index
+title: Find Index
 parent: Iteration
 grand_parent: Actions
 ---

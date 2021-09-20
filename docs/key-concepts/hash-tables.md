@@ -6,7 +6,7 @@ nav_order: 10
 ---
 
 # Tables (Hash)
-Hash table is a `persistent` internal data storage. Which means, the data is not lost even if you reboot system.
+Hash table is a `persistent` internal data storage. This means, the data is not lost even if you reboot the system.
 
 Hash table stores value in a `Key-Value` pair.
 
@@ -15,6 +15,6 @@ Hash table stores value in a `Key-Value` pair.
 ## Accessing the data
 Use action **[TABLE](https://docs.apiautoflow.com/docs/actions/table)** to access the data.
 
-Subsequently, you can get the environment variable from the data-type drop down.
+Subsequently, you can get the environment variable from the data-type drop-down.
 
 ![API AutoFlow Table Data Access](/assets/images/table-data-access.png)

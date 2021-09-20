@@ -17,7 +17,7 @@ Simply upload the certificate in the `Files` section and refer to the certs in t
 
 ![Upload Cert](/assets/images/https-tls-1.png)
 
-## Check the TLS and select the uploaded files from the drop down.
+## Check the TLS and select the uploaded files from the drop-down.
 
 
 ![Checkbox TLS](/assets/images/https-tls-2.png)

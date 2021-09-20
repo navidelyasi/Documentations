@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # Flows
-Flow is a chain of actions to provide a service. It can be retrieval of specified information or the execution of a set of operations. 
+Flow is a chain of actions to provide a service. It can be the retrieval of specified information or the execution of a set of operations. 
 
 ## Action Chaining
 Creating a flow is about daisy “chaining actions”.  The actions alter the data to reach the desired result.

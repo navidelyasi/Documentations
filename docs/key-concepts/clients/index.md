@@ -21,7 +21,7 @@ Connections can be created by clicking on the [Create New] button. Each type of 
 
 ![Create Connection](/assets/images/connections-2.png)
 
-Currently, the name has to be unique across the solution configuration in order to avoid confusion. This may be relaxed in the future.
+Currently, the name has to be unique across the solution configuration to avoid confusion. This may be relaxed in the future.
 
 ## Managing clients
 Once connection has been created successfully, following connection item is added to the connections list view.

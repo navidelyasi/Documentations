@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Data Simulation (Actions)
-parent: Data Simulation
+title: Data Simulator (Actions)
+parent: Data Simulator
 grand_parent: Key Concepts
 ---
 # Data Simulation (Actions)
-The actions that expect a response from another server can mock expected response. The mock result feature can be turned on and off by clicking the check box **[C]**. The mock-result is switched ON by default to avoid making unwanted calls to the server
+The actions that expect a response from another server can mock the expected response. The mock result feature can be turned on and off by clicking the check box **[C]**. The mock result is switched ON by default to avoid making unwanted calls to the server
 
 The simulated mock data **[A]** is made available throughout the flow **[B]**.   
 
@@ -19,4 +19,4 @@ The simulated mock data **[A]** is made available throughout the flow **[B]**.
 
 > IMPORTANT ** Mock data only exists within the product**
 >
-> That means it's a good practice to perform test with the real data once you complete building the solution with the mock data.
+> That means it's a good practice to perform a test with the real data once you complete building the solution with the mock data.

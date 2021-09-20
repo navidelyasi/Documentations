@@ -27,7 +27,7 @@ Learn how to use API AutoFlow from the experts.
 The documentation is divided into 5 sections.
 
 ### 1. Getting started
-Quick guide on how to build your solution.
+A quick guide on how to build your solution.
 
 ### 2. Key Concepts
 Explanation of key concepts and how they are used
@@ -42,16 +42,20 @@ Smarter ways to use API AutoFlow
 Collection of common mistakes and solutions
 
 ## Documentation Search
-The content of the documentation is searchable using keywords. Search engine is located at the top of the page.
+The content of the documentation is searchable using keywords. A search engine is located at the top of the page.
 
 
 ## Cloud vs. Install
 API AutoFlow is available as a Cloud (SaaS) service as well as an Installable that you can deploy in your environment.
 
-Install version has more features that are related to your environment. Those features are labeled with an **[i]** next to the title.
+Install version has more features that are related to your environment.
 
-## How to contribute and make changes to the documentations
-If you had difficulty understanding or following certain parts of the documentation, more-than-likely someone else would go through the same.
+**[ i ]** Those features available only in `install` version labeled with a **[ i ]** next to the title.
+
+**[ c ]** Those features available only in `cloud` version  labeled with a **[ c ]** next to the title.
+
+## How to contribute and make changes to the documentation
+If you had difficulty understanding or following certain parts of the documentation, more than likely someone else would go through the same.
 
 Follow the README instructions.
 

@@ -7,14 +7,14 @@ nav_order: 5
 
 # Templates
 
-Kickstart your solution by remixing an open source templates.
+Kickstart your solution by remixing open source templates.
 
 ## Download More Solution Templates
-Example open source solutions can be found in the below page
+Example open source solutions can be found on the below page
 
 [Open Templates](https://www.apiautoflow.com/template){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-Simply download the configuration of the select template and upload to your API AutoFlow account.
+Simply download the configuration of the select template and upload it to your API AutoFlow account.
 
 
 ## List your open source solution

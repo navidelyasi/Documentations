@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iteration While
+title: While
 parent: Iteration
 grand_parent: Actions
 ---

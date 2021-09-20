@@ -18,6 +18,6 @@ Enables the value to be masked.
 ## Accessing the data
 Use action **[data/get-variable](https://docs.apiautoflow.com/docs/actions/data/get-variable/)** to access the data or from the data-type selection.
 
-Subsequently, you can get the environment variable from the data-type drop down.
+Subsequently, you can get the environment variable from the data-type drop-down.
 
 ![API AutoFlow Environment Variable Access](/assets/images/env-variable-access.png)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iteration Map
+title: Map
 parent: Iteration
 grand_parent: Actions
 ---

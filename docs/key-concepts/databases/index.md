@@ -9,7 +9,7 @@ nav_order: 11
 # Databases
 Out-of-the-box, API AutoFlow provides connectors for many popular databases. You can contact sales to add other databases to your solution.
 
-There are two ways to integrate databases. The database `Action` is for single use and `Service` is for multiple use.
+There are two ways to integrate databases. The database `Action` is for single use and `Service` is for multiple uses.
 
 * TOC
 {:toc}
@@ -19,4 +19,4 @@ There are two ways to integrate databases. The database `Action` is for single u
 Each database action is a separate connection to the database.
 
 ## Database Service
-Establish connection with the database once that can be used throughout the solution.
+Establish a connection with the database once that can be used throughout the solution.

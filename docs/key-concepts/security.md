@@ -10,12 +10,12 @@ API AutoFlow provides both data security and access control.
 
 ## HTTPS TLS (formerly SSL)
 
-Refer to <a href="" alt="">HTTPS</a> for more detail.
+Refer to [HTTPS](https://docs.apiautoflow.com/docs/key-concepts/servers/https-tls/) for more detail.
 
 ## Data Encryption
 API AutoFlow provides data security actions to encrypt and decrypt data.
 
-Refer to <a href="" alt="">Security Actions</a> for more detail.
+Refer to [Security Actions](https://docs.apiautoflow.com/docs/actions/security) for more detail.
 
 * Decrypt
 * Encrypt
@@ -25,4 +25,4 @@ Refer to <a href="" alt="">Security Actions</a> for more detail.
 ## Access Control
 UserID based access control can be managed from the Administrator section.
 
-Refer to <a href="" alt="">Administration Section</a> for more detail.
+Refer to [Administration Section](https://docs.apiautoflow.com/docs/key-concepts/administration-and-settings/) for more detail.
