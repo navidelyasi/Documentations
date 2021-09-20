@@ -22,3 +22,4 @@ Expression:  Elixir expression on the condition
 
 ### Example
 Using the **Variable**, IF the **Target** meets the **Condition** of **Value**
+abcd
