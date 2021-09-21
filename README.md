@@ -15,14 +15,13 @@ All changes are reviewed and edited by the editors before being published.
 All the pages are located in the docs folder
 1. Select the file you wish to update
 2. Press the Edit button to open the editor
-![Open editor](/assets/images/readme1.png)
+![Github Open editor](/assets/images/readme1.png)
 3. Press Propose Changes button after filling out the title and details
-![Commit Changes](/assets/images/readme2.png)
-
-### Updating by Pull Request
-
-* Clone/Fork [API AutoFlow Github Repository](https://github.com/API-AutoFlow/Documentations/)
-* Make appropriate changes and create a pull request
+![Github Propose Changes](/assets/images/readme2.png)
+4. Open a Pull request
+![Github Open a Pull Request](/assets/images/readme3.png)
+5. Fill out the title and details of the Pull Request (It can be the same as the Propose changes request)
+![Github Open a Pull Request](/assets/images/readme4.png)
 
 ## Design and development principles of this document:
 
